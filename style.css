@@ -518,22 +518,11 @@ main .home-sec img {
 @media screen and (max-width:370px){
     #contact-sec .parent-div  a{
         color: #4A4A4A;
-        font-size: 15px;
+        font-size: 19px;
     }
     
     #contact-sec .parent-div h1 {
         color: #4A4A4A;
-        font-size: 15px;
-    }
-}
-@media screen and (max-width:290px){
-    #contact-sec .parent-div  a{
-        color: #4A4A4A;
-        font-size: 13px;
-    }
-    
-    #contact-sec .parent-div h1 {
-        color: #4A4A4A;
-        font-size: 13px;
+        font-size: 19px;
     }
 }
