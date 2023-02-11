@@ -404,6 +404,7 @@ main .home-sec img {
     background-color: #4A4A4A;
     height: auto;
     padding: 2em;
+    text-align: center;
 }
 
 .map {
@@ -426,9 +427,91 @@ main .home-sec img {
 
 #contact-sec .parent-div .gmail-div,
 #contact-sec .parent-div .facebook-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 20px;
     background-color: black;
     padding: 20px
 }
 
+#contact-sec .parent-div a,
+#contact-sec .parent-div a{
+    font-size: 50px;
+}
 
+
+@media screen and (max-width: 1060px){
+    #contact-sec .parent-div .gmail-div,
+    #contact-sec .parent-div .facebook-div {
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 45px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:750px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 40px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:650px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 35px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:675px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 30px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 25px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:435px){
+    #contact-sec .parent-div  a{
+        color: #bd0000;
+        font-size: 15px;
+    }
+    
+    #contact-sec .parent-div h1 {
+        color: #4A4A4A;
+        font-size: 15px;
+    }
+}
