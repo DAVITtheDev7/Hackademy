@@ -554,11 +554,19 @@ main .home-sec img {
 
 .feedback-sec .feedback-div input{
     border-radius: 5px;
-    color: black;
+    background-color: #000000;
     outline: none;
     height: 40px;
     padding: 20px;
+    margin: 15px 0;
 }
+
+.feedback-sec .feedback-div button{
+    border-radius: 5px;
+    background-color: black;
+    
+}
+
 
 /* footer */
 
