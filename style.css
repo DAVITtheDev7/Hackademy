@@ -541,13 +541,24 @@ main .home-sec img {
 }
 
 .feedback-sec .feedback-text-div h1{
-    font-size: 60px;
+    font-size: 65px;
 }
 .feedback-sec .feedback-text-div p{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
+.feedback-sec .feedback-div h1{
+    font-size: 65px;
+}
+
+.feedback-sec .feedback-div input{
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    height: 40px;
+    padding: 20px;
+}
 
 /* footer */
 
