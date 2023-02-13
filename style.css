@@ -547,24 +547,52 @@ main .home-sec img {
     font-size: 50px;
 }
 
-
+.feedback-sec .feedback-div{
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    padding: 0 40px;
+}
 .feedback-sec .feedback-div h1{
-    font-size: 65px;
+    font-size: 70px;
 }
 
 .feedback-sec .feedback-div input{
     border-radius: 5px;
-    background-color: #000000;
+    background-color: #4A4A4A;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
     outline: none;
-    height: 40px;
+    border: none;
+    color: white;
+    outline: none;
+    height: 50px;
     padding: 20px;
-    margin: 15px 0;
+    margin: 10px 0;
+}
+.feedback-sec .feedback-div form div{
+    display: flex;
+    justify-content: space-between;
 }
 
 .feedback-sec .feedback-div button{
     border-radius: 5px;
-    background-color: black;
-    
+    background-color: #4A4A4A;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: #7e7e7e;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1350px){
+    .feedback-sec{
+        flex-direction: column;
+    }    
+    .feedback-sec .feedback-text-div{
+        text-align: center;
+    }
 }
 
 
