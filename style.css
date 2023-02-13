@@ -527,10 +527,32 @@ main .home-sec img {
     }
 }
 
+
+.feedback-sec{
+    width: 100%;
+    height: 100%;
+    background-color: #4A4A4A;
+}
+
+.feedback-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 7em;
+}
+
+.feedback-sec .feedback-text-div h1{
+    font-size: 60px;
+}
+.feedback-sec .feedback-text-div p{
+    font-size: 40px;
+}
+
+
+
 /* footer */
 
-footer{
-    background-color: #000000;
+/* footer{
+    background-color: #ffffff;
     width: 100%;
     height: 50%;
-}
+} */
