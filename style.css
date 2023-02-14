@@ -530,7 +530,7 @@ main .home-sec img {
 
 .feedback-sec{
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: #4A4A4A;
 }
 
@@ -605,6 +605,7 @@ main .home-sec img {
 }
 
 
+
 @media screen and (max-width: 1350px){
     .feedback-sec{
         flex-direction: column;
@@ -657,5 +658,12 @@ main .home-sec img {
 footer{
     background-color: #000000;
     width: 100%;
-    height: 50%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer p{
+    color: grey;
 }
