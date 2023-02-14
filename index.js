@@ -25,6 +25,6 @@ for (var i = 0; i < inputs.length; i++) {
 
  
   input.addEventListener("input", function() {
-    this.style.backgroundColor = "yellow"; 
+    this.style.backgroundColor = "black"; 
   });
 }
