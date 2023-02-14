@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
@@ -11,7 +12,7 @@
     scroll-behavior: smooth;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kanit', sans-serif;
 
 }
 body {
