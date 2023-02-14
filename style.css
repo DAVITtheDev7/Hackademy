@@ -178,7 +178,6 @@ main .home-sec div h1 span{
     font-size: 100px;
 }
 
-
 main .banner-sec{
     width: 100%;
     height: 200px;
@@ -307,7 +306,6 @@ main .home-sec img {
         font-size: 20px;
         margin-top: 40px;
         text-align: justify;
-        width: 80%;
         margin: 0 auto;
     }
     #about-sec h1{
@@ -327,8 +325,6 @@ main .home-sec img {
         padding-top: 2em;
         font-size: 15px;
         margin-top: 40px;
-        text-align: justify;
-        width: 80%;
         margin: 0 auto;
     }
     #about-sec h1{
@@ -683,3 +679,27 @@ footer p{
         font-size: 10px;
     }
 }
+
+footer{
+    overflow-y: hidden;
+}
+
+
+
+
+
+
+
+/* Animations */
+
+
+h1, a, p{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease-in-out;
+  }
+h1.show, a.show, p.show{
+    opacity: 1;
+    transform: translateY(0);
+  }
+

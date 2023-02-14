@@ -28,3 +28,21 @@ for (var i = 0; i < inputs.length; i++) {
     this.style.backgroundColor = "black"; 
   });
 }
+
+
+const elements = document.querySelectorAll('h1,p,a');
+
+function checkIfInView() {
+  elements.forEach(element => {
+  const elementTop = element.getBoundingClientRect().top;
+  const elementBottom = element.getBoundingClientRect().bottom;
+
+  if (elementTop < window.innerHeight && elementBottom >= 0) {
+        element.classList.add('show');
+  } else {
+        element.classList.remove('show');
+      }
+    });
+  }
+window.addEventListener('scroll', checkIfInView);
+checkIfInView();
