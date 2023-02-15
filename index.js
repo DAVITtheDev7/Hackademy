@@ -57,5 +57,5 @@ window.addEventListener('load', function() {
   const loader = document.getElementById('loader');
   setTimeout(function() {
     loader.style.display = 'none';
-  }, Math.floor(Math.random() * 4001) + 1500);
+  }, 1000)
 });
