@@ -59,9 +59,9 @@ body {
 .menu li a{
     padding: 10px 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
-    color: #0BA300;
+    color: #11ff00;
 }
 
 .menu li a::before {
@@ -102,7 +102,7 @@ body {
     display: none;
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1150px){
     .menu {
         flex-direction: column;
         align-items: center;
@@ -392,6 +392,9 @@ main .home-sec img {
     border-radius: 20px;
     transition: 1s;
 }
+.team-card:hover{
+    background-color: #202020;
+}
 
 .team-card p{
     font-size: 20px;
@@ -435,7 +438,7 @@ main .home-sec img {
 /* Contact us */
 
 #contact-sec {
-    background-color: #4A4A4A;
+    background-color: #000000;
     height: auto;
     padding: 2em;
     text-align: center;
@@ -450,12 +453,12 @@ main .home-sec img {
 }
 
 #contact-sec .parent-div a {
-    color: #4A4A4A;
+    color: #ffffff;
     font-size: 20px;
 }
 
 #contact-sec .parent-div h1 {
-    color: #4A4A4A;
+    color: #ffffff;
     font-size: 40px;
 }
 
@@ -465,7 +468,7 @@ main .home-sec img {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    background-color: black;
+    border: 1px solid rgb(53, 53, 53);
     padding: 20px
 }
 
@@ -484,88 +487,90 @@ main .home-sec img {
 
 @media screen and (max-width:800px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: #ffffff;
         font-size: 45px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: #ffffff;
         font-size: 35px;
     }
 }
 
 @media screen and (max-width:750px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: #ffffff;
         font-size: 40px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: #ffffff;
         font-size: 30px;
     }
 }
 @media screen and (max-width:650px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: white;
         font-size: 35px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: white;
         font-size: 25px;
     }
 }
 @media screen and (max-width:675px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: white;
         font-size: 30px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: white;
         font-size: 20px;
     }
 }
 @media screen and (max-width:500px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: white;
         font-size: 25px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: white;
         font-size: 20px;
     }
 }
 @media screen and (max-width:435px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: white;
         font-size: 20px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: white;
         font-size: 20px;
     }
 }
 @media screen and (max-width:370px){
     #contact-sec .parent-div  a{
-        color: #4A4A4A;
+        color: white;
         font-size: 19px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #4A4A4A;
+        color: white;
         font-size: 19px;
     }
 }
 
 
+/* Feedback */
+
 .feedback-sec{
     width: 100%;
     height: 700px;
-    background-color: #4A4A4A;
+    background-color: #000000;
 }
 
 .feedback-sec{
@@ -576,9 +581,11 @@ main .home-sec img {
 
 .feedback-sec .feedback-text-div h1{
     font-size: 65px;
+    color: white;
 }
 .feedback-sec .feedback-text-div p{
     font-size: 50px;
+    color: rgb(78, 78, 78);
 }
 
 .feedback-sec .feedback-div{
@@ -587,14 +594,14 @@ main .home-sec img {
 }
 .feedback-sec .feedback-div h1{
     font-size: 70px;
+    color: white;
 }
 
 .feedback-sec .feedback-div input{
     border-radius: 5px;
-    background-color: #4A4A4A;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    background-color: transparent;
+    border: 0.5px solid rgb(100, 100, 100);
     outline: none;
-    border: none;
     color: white;
     outline: none;
     height: 50px;
@@ -620,10 +627,9 @@ main .home-sec img {
 
 .feedback-sec .feedback-div button{
     border-radius: 5px;
-    background-color: #4A4A4A;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    background-color: #000000; 
     outline: none;
-    border: none;
+    border: 1px solid rgb(100, 100, 100);
     width: 98%;
     height: 50px;
     color: #7e7e7e;
@@ -690,7 +696,7 @@ main .home-sec img {
 /* footer */
 
 footer{
-    background-color: #343434;
+    background-color: #0c0c0c;
     width: 100%;
     height: 40px;
     padding: 10px;
@@ -699,7 +705,7 @@ footer{
 
 
 footer p{
-    color: grey;
+    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
