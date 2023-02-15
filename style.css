@@ -757,14 +757,16 @@ h1.show, a.show, p.show{
     align-items: center;
   }
   
-  #loader img{
-    width: 50px;
-    height: 50px;
-    animation: spin 1.2s linear infinite;
-  }
+#text{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgb(68, 255, 0);
+    animation: typing 2s steps(50, end) infinite;
+}
   
-  @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 10% }
+}
