@@ -785,6 +785,6 @@ h1.show, a.show, p.show{
       
     @keyframes typing {
         from { width: 0 }
-        to { width: 70% }
+        to { width: 80% }
     }
 }
