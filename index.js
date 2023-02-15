@@ -48,3 +48,14 @@ function checkIfInView() {
   }
 window.addEventListener('scroll', checkIfInView);
 checkIfInView();
+
+
+
+// Loading
+
+window.addEventListener('load', function() {
+  const loader = document.getElementById('loader');
+  setTimeout(function() {
+    loader.style.display = 'none';
+  }, 2000);
+});
