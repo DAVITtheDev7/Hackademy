@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 *{
     box-sizing: border-box;
@@ -181,7 +182,7 @@ main .home-sec div h1 span{
 main .banner-sec{
     width: 100%;
     height: 200px;
-    background-color: #2A2A2A;
+    background-color: #0d0d0d;
 }
 
 
@@ -244,28 +245,52 @@ main .home-sec img {
 /* About section */
 
 #about-sec{
-    text-align: center;
-    background-color: #4A4A4A;
-    display: flex;
-    flex-direction: column;
+    background-color: #030305;
     padding: 50px;
+    height: auto;
   }
+
+#about-sec div{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-bottom: 50px;
+}
 #about-sec h1{
-    font-size: 36px;
+    font-size: 50px;
     margin: 40px 0;
+    color: white;
+    text-align: center;
 }
 #about-sec .about-image{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     border-radius: 20px;
 }
 #about-sec p{
-    padding-top: 2em;
-    font-size: 30px;
-    margin-top: 40px;
-    text-align: justify;
-    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:1090px){
+    #about-sec p{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:1090px){
+    #about-sec div{
+        flex-direction: column;
+        text-align: center;
+    }
+    #about-sec{
+        text-align: center;
+    }
+    #about-sec p{
+        padding-top: 20px;
+    }
 }
 
 
@@ -340,12 +365,13 @@ main .home-sec img {
 
 #team-sec {
     text-align: center;
-    background-color: #4A4A4A;
+    background-color: #030305;
 }
 
 .title {
-    font-size: 36px;
+    font-size: 40px;
     margin: 3em 0  10px 0;
+    color: white;
 }
 
 .team-cards {
@@ -355,20 +381,25 @@ main .home-sec img {
     margin-bottom: 15%;
 }
 
+
 .team-card {
     width: 20%;
     margin: 20px;
     padding: 50px 10px;
     text-align: center;
-    background-color: #4A4A4A;
+    background-color: #121212;
     box-shadow: 0.1px 0.1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    transition: 1s;
 }
+
 .team-card p{
     font-size: 20px;
+    color: white;
 }
 .team-card h1{
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 
 .guest {
