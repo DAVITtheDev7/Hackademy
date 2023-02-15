@@ -34,7 +34,7 @@ body {
     align-items: center;
     list-style: none;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.529);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 12px 20px;
 }
 .logo img {
@@ -695,11 +695,8 @@ footer{
 
 h1, a, p{
     opacity: 0;
-    transform: translateY(20px);
     transition: all 1s ease-in-out;
   }
 h1.show, a.show, p.show{
     opacity: 1;
-    transform: translateY(0);
   }
-

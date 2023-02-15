@@ -30,6 +30,8 @@ for (var i = 0; i < inputs.length; i++) {
 }
 
 
+
+
 const elements = document.querySelectorAll('h1,p,a');
 
 function checkIfInView() {
