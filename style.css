@@ -167,7 +167,7 @@ main .home-sec div{
     overflow-y: hidden;
 }
 main .home-sec div h1{
-    color: #098A00;
+    color: #23980e;
     font-size: 30px;
 }
 main .home-sec div p{
@@ -182,7 +182,7 @@ main .home-sec div h1 span{
 main .banner-sec{
     width: 100%;
     height: 200px;
-    background-color: #0d0d0d;
+    background-color: #040404;
 }
 
 
@@ -259,7 +259,7 @@ main .home-sec img {
 #about-sec h1{
     font-size: 50px;
     margin: 40px 0;
-    color: white;
+    color: rgb(100, 100, 100);
     text-align: center;
 }
 #about-sec .about-image{
@@ -271,7 +271,7 @@ main .home-sec img {
 #about-sec p{
     font-size: 25px;
     text-align: center;
-    color: white;
+    color: rgb(100, 100, 100);
 }
 
 @media screen and (min-width:1090px){
@@ -371,7 +371,7 @@ main .home-sec img {
 .title {
     font-size: 40px;
     margin: 3em 0  10px 0;
-    color: white;
+    color: rgb(100, 100, 100);
 }
 
 .team-cards {
@@ -398,11 +398,11 @@ main .home-sec img {
 
 .team-card p{
     font-size: 20px;
-    color: white;
+    color: rgb(100, 100, 100);
 }
 .team-card h1{
     font-size: 30px;
-    color: white;
+    color: rgb(100, 100, 100);
 }
 
 .guest {
@@ -453,12 +453,12 @@ main .home-sec img {
 }
 
 #contact-sec .parent-div a {
-    color: #ffffff;
+    color: rgb(100, 100, 100);
     font-size: 20px;
 }
 
 #contact-sec .parent-div h1 {
-    color: #ffffff;
+    color: rgb(100, 100, 100);
     font-size: 40px;
 }
 
@@ -487,79 +487,79 @@ main .home-sec img {
 
 @media screen and (max-width:800px){
     #contact-sec .parent-div  a{
-        color: #ffffff;
+        color: rgb(100, 100, 100);
         font-size: 45px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #ffffff;
+        color: rgb(100, 100, 100);
         font-size: 35px;
     }
 }
 
 @media screen and (max-width:750px){
     #contact-sec .parent-div  a{
-        color: #ffffff;
+        color: rgb(100, 100, 100);
         font-size: 40px;
     }
     
     #contact-sec .parent-div h1 {
-        color: #ffffff;
+        color: rgb(100, 100, 100);
         font-size: 30px;
     }
 }
 @media screen and (max-width:650px){
     #contact-sec .parent-div  a{
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 35px;
     }
     
     #contact-sec .parent-div h1 {
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 25px;
     }
 }
 @media screen and (max-width:675px){
     #contact-sec .parent-div  a{
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 30px;
     }
     
     #contact-sec .parent-div h1 {
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:500px){
     #contact-sec .parent-div  a{
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 25px;
     }
     
     #contact-sec .parent-div h1 {
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:435px){
     #contact-sec .parent-div  a{
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 20px;
     }
     
     #contact-sec .parent-div h1 {
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:370px){
     #contact-sec .parent-div  a{
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 19px;
     }
     
     #contact-sec .parent-div h1 {
-        color: white;
+        color: rgb(100, 100, 100);
         font-size: 19px;
     }
 }
@@ -581,7 +581,7 @@ main .home-sec img {
 
 .feedback-sec .feedback-text-div h1{
     font-size: 65px;
-    color: white;
+    color: rgb(227, 227, 227);
 }
 .feedback-sec .feedback-text-div p{
     font-size: 50px;
@@ -594,7 +594,7 @@ main .home-sec img {
 }
 .feedback-sec .feedback-div h1{
     font-size: 70px;
-    color: white;
+    color: rgb(100, 100, 100);
 }
 
 .feedback-sec .feedback-div input{
@@ -602,7 +602,7 @@ main .home-sec img {
     background-color: transparent;
     border: 0.5px solid rgb(100, 100, 100);
     outline: none;
-    color: white;
+    color: rgb(100, 100, 100);
     outline: none;
     height: 50px;
     padding: 20px;
