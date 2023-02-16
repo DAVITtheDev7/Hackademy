@@ -762,24 +762,25 @@ h1.show,.link-a.show, p.show{
     width: 100%;
     height: 100%;
     background-color: #000000;
-    z-index: 9999;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+
 #text{
     font-size: 24px;
     font-family: 'IBM Plex Mono', monospace;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid rgb(68, 255, 0);
-    animation: typing 5s steps(100, end) infinite;
+    animation: typing 2s steps(100, end) infinite;
 }
   
 @keyframes typing {
     from { width: 0 }
-    to { width: 30%}
+    to { width: 11%}
 }
 
 
