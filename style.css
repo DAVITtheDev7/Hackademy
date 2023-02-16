@@ -796,6 +796,6 @@ h1.show,.link-a.show, p.show{
       
     @keyframes typing {
         from { width: 0 }
-        to { width: 90% }
+        to { width: 70% }
     }
 }
