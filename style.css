@@ -106,7 +106,9 @@ body {
 
 .change-language-img{
     transition: 1s;
+    animation: spin;
 }
+
 .change-language-img:hover{
     transform: rotate(360deg);
 }
