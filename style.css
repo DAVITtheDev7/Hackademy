@@ -103,6 +103,14 @@ body {
     display: none;
 }
 
+
+.change-language-img{
+    transition: 1s;
+}
+.change-language-img:hover{
+    transform: rotate(360deg);
+}
+
 @media(max-width: 1150px){
     .menu {
         flex-direction: column;
@@ -731,11 +739,11 @@ footer{
 /* Animations */
 
 
-h1, a, p{
+h1, .link-a, p{
     opacity: 0;
     transition: all 1s ease-in-out;
   }
-h1.show, a.show, p.show{
+h1.show,.link-a.show, p.show{
     opacity: 1;
   }
 
