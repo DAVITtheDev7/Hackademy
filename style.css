@@ -370,80 +370,11 @@ main .home-sec img {
 }
 
 
-
-
-/* Team */
-
-#team-sec {
-    text-align: center;
-    background-color: #030305;
-}
-
-.title {
-    font-size: 40px;
-    margin: 3em 0  10px 0;
+.title{
     color: rgb(100, 100, 100);
+    font-size: 40px;
+    margin-top: 2em;
 }
-
-.team-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 15%;
-}
-
-
-.team-card {
-    width: 20%;
-    margin: 20px;
-    padding: 50px 10px;
-    text-align: center;
-    background-color: #121212;
-    box-shadow: 0.1px 0.1px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    transition: 1s;
-}
-.team-card:hover{
-    background-color: #202020;
-}
-
-.team-card p{
-    font-size: 20px;
-    color: rgb(159, 159, 159);
-}
-.team-card h1{
-    font-size: 30px;
-    color: rgb(174, 174, 174);
-}
-
-.guest {
-    width: 50%;
-}
-
-.guest-name {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-@media (max-width: 991px) {
-    .team-card {
-        width: calc(33.33% - 20px);
-    }
-}
-
-@media (max-width: 767px) {
-    .team-card {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 575px) {
-    .team-card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
 
 
 /* Contact us */
@@ -461,10 +392,11 @@ main .home-sec img {
     font-size: 20px;
 }
 
-#contact-sec .parent-div h1 {
+#contact-sec .parent-div h1{
     color: rgb(100, 100, 100);
     font-size: 40px;
 }
+
 
 #contact-sec .parent-div .gmail-div,
 #contact-sec .parent-div .facebook-div {
@@ -733,15 +665,16 @@ footer{
 
 /* Animations */
 
-
-h1, .link-a, p{
+.animate-on-scroll {
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
   }
-h1.show,.link-a.show, p.show{
+.animate-on-scroll.is-visible {
     opacity: 1;
+    transform: translateY(0);
   }
-
+  
 
 
 
@@ -800,3 +733,15 @@ h1.show,.link-a.show, p.show{
         width: 100%;
     }
 }
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    background-color: #2a2a2a;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+

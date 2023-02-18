@@ -7,6 +7,18 @@ let submitButton = document.getElementById("submit-button");
 submitButton.addEventListener("click", feedback);
 
 
+// Navbar
+
+const buttons = document.querySelectorAll('.nav-bar li a');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const checkbox = document.getElementById('check');
+    checkbox.checked = false;
+  });
+});
+
+
 
 var inputs = document.querySelectorAll(".my-input");
 
@@ -61,3 +73,20 @@ window.addEventListener('load', function() {
 });
 
 
+// animation
+
+const animateOnScrollElements = document.querySelectorAll('.animate-on-scroll');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.classList.add('is-visible');
+    } else {
+      entry.target.classList.remove('is-visible');
+    }
+  });
+});
+
+animateOnScrollElements.forEach(element => {
+  observer.observe(element);
+});
