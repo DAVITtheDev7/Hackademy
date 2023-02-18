@@ -5,8 +5,8 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="img/tabicon.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/tabicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,16 +15,18 @@
 </head>
 <body>
 
-    <div id="loader">
-        <p style="color:green" id="text">HelloWorld...</p>
-      </div>
+    <div id="loader" >
+        <div class="container">
+            <h2 class="" data-text="HelloWorld...">HelloWorld...</h2>
+        </div>
+    </div>
 
 
 
    <header>
     <nav>
         <ul class='nav-bar'>
-            <li class='logo'><a href='#'><img src='img/websitelogo.png'/></a></li>
+            <li class='logo'><a href='#'><img src='../img/websitelogo.png'/></a></li>
             <input type='checkbox' id='check' />
             <span class="menu">
                 <li><a href="#home-sec">Home</a></li>
@@ -32,7 +34,7 @@
                 <li><a href="#team-sec">Courses</a></li>
                 <li><a href="#contact-sec">Contact</a></li>
                 <li><a href="#feedback-sec">Feedback</a></li>
-                <a class="change-language" href="geoversion/indexgeo.html"><img class="change-language-img" src="img/georgia.png"></a>
+                <a class="change-language" href="../indexgeo.html"><img class="change-language-img" src="../img/georgia.png"></a>
                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
             </span>
             <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
@@ -53,7 +55,7 @@
         <section id="about-sec" >
             <h1>ABOUT US</h1>
             <div>
-                <img class="about-image" src="img/aboutlogo.png">
+                <img class="about-image" src="../img/aboutlogo.png">
                 <p>ჩვენ ვაპირებთ ახალაგზრდებს კარი გავუხსნათ პროგრამირების სამყაროში და შევასწავლოთ ეს მეცნიერება. ჩვენს აკადემიაშ ითითოეული სტუდენტი ღებულობს სიღრმისეულ ცოდნას გამოცდილი გუნდისგან </p>
             </div>
         </section>
@@ -66,25 +68,25 @@
             <div class="team-cards">
 
                 <div class="team-card">
-                    <img class="guest" src="img/guest.png">
+                    <img class="guest" src="../img/guest.png">
                     <h1 class="guest-name" >Name Surname</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
 
                 <div class="team-card">
-                    <img class="guest" src="img/guest.png">
+                    <img class="guest" src="../img/guest.png">
                     <h1 class="guest-name" >Name Surname</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
 
                 <div class="team-card">
-                    <img class="guest" src="img/guest.png">
+                    <img class="guest" src="../img/guest.png">
                     <h1 class="guest-name" >Name Surname</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
 
                 <div class="team-card">
-                    <img class="guest" src="img/guest.png">
+                    <img class="guest" src="../img/guest.png">
                     <h1 class="guest-name" >Name Surname</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
@@ -158,7 +160,7 @@
 
     
     
-    <script src="index.js" ></script>
+    <script src="../index.js" ></script>
 
 </body>
 </html>

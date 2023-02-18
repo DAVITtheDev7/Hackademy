@@ -768,34 +768,42 @@ h1.show,.link-a.show, p.show{
     align-items: center;
   }
   
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+}
 
-#text{
-    font-size: 24px;
-    font-family: 'IBM Plex Mono', monospace;
-    white-space: nowrap;
+.container h2{
+    position: relative;
+    font-size: 50px;
+    color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h2:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #15ff00;
+    border-right: 2px solid #158307;
     overflow: hidden;
-    border-right: 2px solid rgb(68, 255, 0);
-    animation: typing 2s steps(100, end) infinite;
-}
-  
-@keyframes typing {
-    from { width: 0 }
-    to { width: 11%}
+    animation: animate 2s  linear infinite;
 }
 
-
-@media screen and (max-width: 1200px){
-    #text{
-        font-size: 24px;
-        font-family: 'IBM Plex Mono', monospace;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 2px solid rgb(68, 255, 0);
-        animation: typing 2s steps(100, end) infinite;
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
     }
-      
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 50% }
+    70%,90%
+    {
+        width: 100%;
     }
 }
