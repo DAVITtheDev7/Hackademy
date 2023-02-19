@@ -160,7 +160,7 @@ body {
 /* Main */
 
 
-main .home-sec{
+main #home-sec{
     background-image:url(img/back.png);
     background-color: black;
     background-position:center;
@@ -172,20 +172,20 @@ main .home-sec{
     height: 100%;
     width: 100%;
 }
-main .home-sec div{
+main #home-sec div{
     margin: 0 auto;
     text-align: center;
     overflow-y: hidden;
 }
-main .home-sec div h1{
+main #home-sec div h1{
     color: #23980e;
     font-size: 30px;
 }
-main .home-sec div p{
+main #home-sec div p{
     color: #009E1D;
     padding-bottom: 20px;
 }
-main .home-sec div h1 span{
+main #home-sec div h1 span{
     color: #00FF11;
     font-size: 100px;
 }
@@ -198,7 +198,7 @@ main .banner-sec{
 
 
 
-main .home-sec img {
+main #home-sec img {
     cursor: pointer;
     animation: moveUpDown 2s infinite;
 }
@@ -207,43 +207,43 @@ main .home-sec img {
 
 
 @media screen and (max-width: 700px){
-    main .home-sec div h1 span{
+    main #home-sec div h1 span{
         font-size: 5rem;
     }
 }
 
 @media screen and (max-width: 550px){
-    main .home-sec div h1 span{
+    main #home-sec div h1 span{
         font-size: 4rem;
     }
-    main .home-sec div h1{
+    main #home-sec div h1{
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 450px){
-    main .home-sec div h1 span{
+    main #home-sec div h1 span{
         font-size: 3.5rem;
     }
-    main .home-sec div h1{
+    main #home-sec div h1{
         font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 350px){
-    main .home-sec div h1 span{
+    main #home-sec div h1 span{
         font-size: 3rem;
     }
-    main .home-sec div h1{
+    main #home-sec div h1{
         font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width: 300px){
-    main .home-sec div h1 span{
+    main #home-sec div h1 span{
         font-size: 2rem;
     }
-    main .home-sec div h1{
+    main #home-sec div h1{
         font-size: 0.5rem;
     }
 }
@@ -369,11 +369,57 @@ main .home-sec img {
     }
 }
 
+/* Courses sec */
+
+#course-sec{
+    background-color: #000000;
+}
+
+.parent-courses {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 40px;
+}  
+
+.courses{
+      display: inline-block;
+      background-color: #252525;
+      width: 400px;
+      height: 470px;
+      border-radius: 30px;
+      margin: 0 20px;
+      text-align: center;
+  }
+
+
+.courses img{
+    width:  100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .title{
     color: rgb(100, 100, 100);
     font-size: 40px;
-    margin-top: 2em;
+    margin-top: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -503,37 +549,37 @@ main .home-sec img {
 
 /* Feedback */
 
-.feedback-sec{
+#feedback-sec{
     width: 100%;
     height: 700px;
     background-color: #000000;
 }
 
-.feedback-sec{
+#feedback-sec{
     display: flex;
     justify-content: space-around;
     padding-top: 7em;
 }
 
-.feedback-sec .feedback-text-div h1{
+#feedback-sec .feedback-text-div h1{
     font-size: 65px;
     color: rgb(227, 227, 227);
 }
-.feedback-sec .feedback-text-div p{
+#feedback-sec .feedback-text-div p{
     font-size: 50px;
     color: rgb(78, 78, 78);
 }
 
-.feedback-sec .feedback-div{
+#feedback-sec .feedback-div{
     text-align: center;
     border-radius: 20px;
 }
-.feedback-sec .feedback-div h1{
+#feedback-sec .feedback-div h1{
     font-size: 70px;
     color: rgb(100, 100, 100);
 }
 
-.feedback-sec .feedback-div input{
+#feedback-sec .feedback-div input{
     border-radius: 5px;
     background-color: transparent;
     border: 0.5px solid rgb(100, 100, 100);
@@ -545,23 +591,23 @@ main .home-sec img {
     margin: 10px 0;
     transition: 0.5s;
 }
-.feedback-sec .feedback-div form div{
+#feedback-sec .feedback-div form div{
     display: flex;
     justify-content: space-around;
     padding: 5px;
 }
-.feedback-sec .feedback-div form div #name, #surname{
+#feedback-sec .feedback-div form div #name, #surname{
     width: 48%;
 }
-.feedback-sec .feedback-div form div #name{
+#feedback-sec .feedback-div form div #name{
     margin-right: 20px;
 }
 
-.feedback-sec .feedback-div form{
+#feedback-sec .feedback-div form{
     padding: 0 50px 10px 50px;
 }
 
-.feedback-sec .feedback-div button{
+#feedback-sec .feedback-div button{
     border-radius: 5px;
     background-color: #000000; 
     outline: none;
@@ -573,7 +619,7 @@ main .home-sec img {
     cursor: pointer;
     transition: 1s;
 }
-.feedback-sec .feedback-div button:hover{
+#feedback-sec .feedback-div button:hover{
     box-shadow:
     0 0 5px white,
     0 0 5px white,
@@ -583,46 +629,46 @@ main .home-sec img {
 
 
 @media screen and (max-width: 1350px){
-    .feedback-sec{
+    #feedback-sec{
         flex-direction: column;
     }    
-    .feedback-sec .feedback-text-div{
+    #feedback-sec .feedback-text-div{
         text-align: center;
     }
 }
 
 @media screen and (max-width: 700px){
-    .feedback-sec .feedback-div h1{
+    #feedback-sec .feedback-div h1{
         font-size: 50px;
     }
-    .feedback-sec .feedback-text-div h1{
+    #feedback-sec .feedback-text-div h1{
         font-size: 50px;
     }
-    .feedback-sec .feedback-text-div p{
+    #feedback-sec .feedback-text-div p{
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 550px){
     
-    .feedback-sec .feedback-div h1{
+    #feedback-sec .feedback-div h1{
         font-size: 40px;
     }
-    .feedback-sec .feedback-text-div h1{
+    #feedback-sec .feedback-text-div h1{
         font-size: 40px;
     }
-    .feedback-sec .feedback-text-div p{
+    #feedback-sec .feedback-text-div p{
         font-size: 30px;
     }
 }
 @media screen and (max-width: 300px){
-    .feedback-sec .feedback-div h1{
+    #feedback-sec .feedback-div h1{
         font-size: 30px;
     }
-    .feedback-sec .feedback-text-div h1{
+    #feedback-sec .feedback-text-div h1{
         font-size: 30px;
     }
-    .feedback-sec .feedback-text-div p{
+    #feedback-sec .feedback-text-div p{
         font-size: 20px;
     }
 }
@@ -666,6 +712,7 @@ footer{
 /* Animations */
 
 
+  
   
 
 
@@ -729,10 +776,12 @@ footer{
 /* scrollbar */
 
 ::-webkit-scrollbar {
-    background-color: #2a2a2a;
+    background-color: #1b1b1b;
     width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #383838;
 }
+
+
 
