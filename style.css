@@ -397,8 +397,18 @@ main #home-sec img {
     width:  100%;
 }
 
+.courses h1{
+    color: #C2C2C2;
+    font-size: 50px;
+}
 
 
+.courses div h2{
+    color: #C2C2C2;
+    font-size: 20px;
+    line-height: 17px;
+    overflow: hidden;
+}
 
 
 
