@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
 
 @font-face {
     font-family: 'techno hideo';
@@ -28,7 +29,7 @@
     scroll-behavior: smooth;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'ArchyEDT-Bold';
 
 }
 body {
@@ -70,7 +71,7 @@ body {
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
-    font-family: 'square' !important;
+    font-family: 'ArchyEDT-Bold';
 }
 .menu li a{
     padding: 10px 20px;
@@ -119,14 +120,6 @@ body {
 }
 
 
-.change-language-img{
-    transition: 1s;
-    animation: spin;
-}
-
-.change-language-img:hover{
-    transform: rotate(360deg);
-}
 
 @media(max-width: 1150px){
     .menu {
