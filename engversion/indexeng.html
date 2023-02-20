@@ -15,11 +15,11 @@
 </head>
 <body>
 
-    <!-- <div id="loader" >
+    <div id="loader" >
         <div class="container">
             <h2 class="" data-text="HelloWorld...">HelloWorld...</h2>
         </div>
-    </div> -->
+    </div>
 
 
 
@@ -47,36 +47,39 @@
    <main>
         <section id="home-sec" class="home-sec">
             <div>
-                <h1 style="font-family: 'Abel', sans-serif;" ><span>WELCOME</span><br>TO OUR COMMUNITY</h1>
+                <h1 class="reveal-on-scroll" style="font-family: 'Abel', sans-serif;" ><span class="reveal-on-scroll" >WELCOME</span><br>TO OUR COMMUNITY</h1>
             </div>
         </section>
 
         <section id="banner-sec" class="banner-sec"></section>
 
         <section id="about-sec" >
-            <h1>ABOUT US</h1>
+            <h1 class="reveal-on-scroll" >ABOUT US</h1>
             <div>
-                <img class="about-image" src="../img/aboutlogo.png">
-                <p>ჩვენ ვაპირებთ ახალაგზრდებს კარი გავუხსნათ პროგრამირების სამყაროში და შევასწავლოთ ეს მეცნიერება. ჩვენს აკადემიაშ ითითოეული სტუდენტი ღებულობს სიღრმისეულ ცოდნას გამოცდილი გუნდისგან </p>
+                <img class="reveal-on-scroll" id="about-image" src="../img/aboutlogo.png">
+                <p class="reveal-on-scroll" >ჩვენ ვაპირებთ ახალაგზრდებს კარი გავუხსნათ პროგრამირების სამყაროში და შევასწავლოთ ეს მეცნიერება. ჩვენს აკადემიაშ ითითოეული სტუდენტი ღებულობს სიღრმისეულ ცოდნას გამოცდილი გუნდისგან </p>
             </div>
         </section>
 
         <section id="banner-sec" class="banner-sec"></section>
 
         <section id="course-sec">
-            <h1 class="title" >OUR COURSES</h1>
+            <h1  class="reveal-on-scroll" id="title" >OUR COURSES</h1>
 
-            <div class="parent-courses">
+            <div class="reveal-on-scroll" id="parent-courses">
 
                 <div class="courses">
                     
                     <img src="../img/python.png"  alt="python">
 
-                    <h1>PYTHON</h1>
+                    <h1 class="exception-h1" >PYTHON</h1>
+
 
                     <div>
                         <h2>Python is a computer programming<br> language often used to build websites<br> and software, automate tasks, and<br> conduct data analysis. Python is a<br> general-purpose language, meaning it<br> can be used to create a variety of<br> different programs and isn't<br> specialized for any specific problems.</h2>
                     </div>
+
+                    <a href="../courses/python/python.html" >SEE MORE..</a>
                     
                 </div>
 
@@ -91,17 +94,21 @@
                             CSS is the language for describing the presentation<br> of Web pages, including colors, layout, and fonts.<br> It allows one to adapt the presentation to different<br> types of devices, such as large screens, small screens,<br> or printers.CSS is independent of HTML and can be<br> used with any XML-based markup language.</h2>
                     </div>
 
+                    <a href="../courses/htmlcss/" >SEE MORE..</a>
+
                 </div>
 
                 <div class="courses">
                     
                     <img src="../img/java.png"  style="width: 107%;" alt="java">
 
-                    <h1>JAVA</h1>
+                    <h1 class="exception-h1" >JAVA</h1>
 
                     <div>
                         <h2>Java is a widely used object-oriented<br>programming language and software<br> platform that runs on billions of devices,<br> including notebook computers, mobile<br> devices, gaming consoles, medical devices<br> and many others. The rules and syntax<br> of Java are based on<br> the C and C++ languages.</h1>
                     </div>
+
+                    <a href="#" >SEE MORE..</a>
 
                 </div>
 
@@ -116,9 +123,9 @@
         <section id="banner-sec" class="banner-sec"></section>
 
         <section id="contact-sec">
-            <h1 class="title" style="text-align: center; margin-bottom: 1em;">CONTACT US</h1>
+            <h1 class="reveal-on-scroll" id="title" style="text-align: center; margin-bottom: 1em;">CONTACT US</h1>
 
-            <div class="parent-div">
+            <div class="reveal-on-scroll" id="parent-div">
                 <div class="contact-div">
 
                     <div class="gmail-div">
@@ -140,14 +147,14 @@
         <section class="feedback-sec" id="feedback-sec">
 
                 <div class="feedback-text-div">
-                    <h1>HACKADEMY GROUP</h1>
-                    <p>Share your thoughts on how<br>we can improve our site.</p>
+                    <h1 class="reveal-on-scroll" >HACKADEMY GROUP</h1>
+                    <p class="reveal-on-scroll" >Share your thoughts on how<br>we can improve our site.</p>
                 </div>
 
                 <div class="feedback-div">
-                    <h1>FEEDBACK</h1>
+                    <h1 class="reveal-on-scroll" >FEEDBACK</h1>
 
-                    <form>
+                    <form class="reveal-on-scroll" >
                         <div>
                             <input class="my-input" type="text" id="name" placeholder="FIRST NAME" >
                             <input class="my-input" type="text" id="surname" placeholder="LAST NAME" >

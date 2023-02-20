@@ -6,6 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 
+@font-face {
+    font-family: 'techno hideo';
+    src: url(fonts/techno_hideo/techno_hideo.ttf);
+}
+@font-face {
+    font-family: 'square';
+    src: url(fonts/aldo_the_apache/AldotheApache.ttf);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -56,6 +65,7 @@ body {
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    font-family: 'square' !important;
 }
 .menu li a{
     padding: 10px 20px;
@@ -273,7 +283,7 @@ main #home-sec img {
     color: rgb(100, 100, 100);
     text-align: center;
 }
-#about-sec .about-image{
+#about-sec #about-image{
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -306,7 +316,7 @@ main #home-sec img {
 
 
 @media screen and (max-width: 650px){
-    #about-sec .about-image{
+    #about-sec #about-image{
         width: 400px;
         height: 400px;
         margin: 0 auto;
@@ -314,7 +324,7 @@ main #home-sec img {
     }
 }
 @media screen and (max-width: 510px){
-    #about-sec .about-image{
+    #about-sec #about-image{
         width: 300px;
         height: 300px;
         margin: 0 auto;
@@ -322,7 +332,7 @@ main #home-sec img {
     }
 }
 @media screen and (max-width: 450px){
-    #about-sec .about-image{
+    #about-sec #about-image{
         width: 250px;
         height: 250px;
         margin: 0 auto;
@@ -331,7 +341,7 @@ main #home-sec img {
 }
 
 @media screen and (max-width: 380px){
-    #about-sec .about-image{
+    #about-sec #about-image{
         width: 200px;
         height: 200px;
         margin: 0 auto;
@@ -351,7 +361,7 @@ main #home-sec img {
 }
 
 @media screen and (max-width: 310px){
-    #about-sec .about-image{
+    #about-sec #about-image{
         width: 150px;
         height: 150px;
         margin: 0 auto;
@@ -376,36 +386,53 @@ main #home-sec img {
     text-align: center;
 }
 
-.parent-courses {
+#parent-courses {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    padding-bottom: 40px;
+    padding: 40px;
 }  
 
 .courses{
     display: inline-block;
-      background-color: #252525;
-      width: 400px;
-      height: 470px;
-      border-radius: 30px;
-      margin: 0 20px;
-      overflow: hidden;
+    box-shadow: 10px 10px 10px #000569;
+    width: 400px;
+    height: 480px;
+    border-radius: 30px;
+    margin: 0 20px;
+    overflow: hidden;
+    transition: 0.5s;
   }
 
+
+
+.courses:hover{
+    box-shadow: 10px 10px 10px #1100cc;
+} 
 
 .courses img{
     width:  100%;
 }
 
+.courses a{
+    color: #C2C2C2;
+    font-size: 20px;
+    font-family: "techno hideo";
+}
+
 .courses h1{
     color: #C2C2C2;
     font-size: 50px;
+    font-family: "techno hideo";
 }
 
 #exception{
     font-size: 15px;
     line-height: 15px;
+}
+
+.exception-h1{
+    padding-top: 25px;
 }
 
 
@@ -478,7 +505,7 @@ main #home-sec img {
 
 
 
-.title{
+#title{
     color: rgb(100, 100, 100);
     font-size: 40px;
     margin-top: 2.5em;
@@ -497,19 +524,19 @@ main #home-sec img {
 }
 
 
-#contact-sec .parent-div a {
+#contact-sec #parent-div a {
     color: rgb(100, 100, 100);
     font-size: 20px;
 }
 
-#contact-sec .parent-div h1{
+#contact-sec #parent-div h1{
     color: rgb(100, 100, 100);
     font-size: 40px;
 }
 
 
-#contact-sec .parent-div .gmail-div,
-#contact-sec .parent-div .facebook-div {
+#contact-sec #parent-div .gmail-div,
+#contact-sec #parent-div .facebook-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -518,93 +545,93 @@ main #home-sec img {
     padding: 20px
 }
 
-#contact-sec .parent-div a,
-#contact-sec .parent-div a{
+#contact-sec #parent-div a,
+#contact-sec #parent-div a{
     font-size: 50px;
 }
 
 
 @media screen and (max-width: 1060px){
-    #contact-sec .parent-div .gmail-div,
-    #contact-sec .parent-div .facebook-div {
+    #contact-sec #parent-div .gmail-div,
+    #contact-sec #parent-div .facebook-div {
     flex-direction: column;
     }
 }
 
 @media screen and (max-width:800px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 45px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 35px;
     }
 }
 
 @media screen and (max-width:750px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 40px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 30px;
     }
 }
 @media screen and (max-width:650px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 35px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 25px;
     }
 }
 @media screen and (max-width:675px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 30px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:500px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 25px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:435px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 20px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 20px;
     }
 }
 @media screen and (max-width:370px){
-    #contact-sec .parent-div  a{
+    #contact-sec #parent-div  a{
         color: rgb(100, 100, 100);
         font-size: 19px;
     }
     
-    #contact-sec .parent-div h1 {
+    #contact-sec #parent-div h1 {
         color: rgb(100, 100, 100);
         font-size: 19px;
     }
@@ -775,9 +802,6 @@ footer{
 
 /* Animations */
 
-
-  
-  
 
 
 /* Loading */
