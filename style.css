@@ -384,7 +384,7 @@ main #home-sec img {
 }  
 
 .courses{
-      display: inline-block;
+    display: inline-block;
       background-color: #252525;
       width: 400px;
       height: 470px;
@@ -403,11 +403,16 @@ main #home-sec img {
     font-size: 50px;
 }
 
+#exception{
+    font-size: 15px;
+    line-height: 15px;
+}
+
 
 .courses div h2{
     color: #C2C2C2;
     font-size: 20px;
-    line-height: 17px;
+    line-height: 19px;
     overflow: hidden;
     height: 200px;
 }
@@ -420,6 +425,34 @@ main #home-sec img {
 }
 
 
+@media screen and (max-width: 440px){
+    .courses{
+        width: 380px;
+        height: 470px;
+    }
+
+}
+@media screen and (max-width: 430px){
+    .courses{
+        width: 360px;
+        height: 470px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .courses{
+        width: 340px;
+        height: 470px;
+    }
+    .courses div h2{
+        font-size: 15px;
+    }
+    #exception{
+        font-size: 13px;
+    }
+
+}
 
 
 
