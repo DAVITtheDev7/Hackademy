@@ -453,7 +453,19 @@ main #home-sec img {
     }
 
 }
+@media screen and (max-width: 380px){
+    .courses{
+        width: 330px;
+        height: 470px;
+    }
+    .courses div h2{
+        font-size: 15px;
+    }
+    #exception{
+        font-size: 10px;
+    }
 
+}
 
 
 
