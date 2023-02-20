@@ -390,7 +390,7 @@ main #home-sec img {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    padding: 40px;
+    padding: 40px 0;
 }  
 
 .courses{
