@@ -288,7 +288,7 @@ main #home-sec img {
     border-radius: 20px;
 }
 #about-sec p{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     color: rgb(100, 100, 100);
 }
@@ -379,120 +379,6 @@ main #home-sec img {
 
 /* Courses sec */
 
-#course-sec{
-    background-color: #000000;
-    text-align: center;
-}
-
-#parent-courses {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding: 40px 0;
-}  
-
-.courses{
-    display: inline-block;
-    box-shadow: 10px 10px 10px #000569;
-    width: 400px;
-    height: 480px;
-    border-radius: 30px;
-    margin: 0 20px;
-    overflow: hidden;
-    transition: 0.5s;
-  }
-
-
-
-.courses:hover{
-    box-shadow: 10px 10px 10px #1100cc;
-} 
-
-.courses img{
-    width:  100%;
-}
-
-.courses a{
-    color: #C2C2C2;
-    font-size: 20px;
-    font-family: "techno hideo";
-}
-
-.courses h1{
-    color: #C2C2C2;
-    font-size: 50px;
-    font-family: "techno hideo";
-}
-
-#exception{
-    font-size: 15px;
-    line-height: 15px;
-}
-
-.exception-h1{
-    padding-top: 25px;
-}
-
-
-.courses div h2{
-    color: #C2C2C2;
-    font-size: 20px;
-    line-height: 19px;
-    overflow: hidden;
-    height: 200px;
-}
-
-#comingsoon{
-    background-image: url(img/comingsoon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
-@media screen and (max-width: 440px){
-    .courses{
-        width: 380px;
-        height: 470px;
-    }
-
-}
-@media screen and (max-width: 430px){
-    .courses{
-        width: 360px;
-        height: 470px;
-    }
-
-}
-
-@media screen and (max-width: 420px){
-    .courses{
-        width: 340px;
-        height: 470px;
-    }
-    .courses div h2{
-        font-size: 15px;
-    }
-    #exception{
-        font-size: 13px;
-    }
-
-}
-@media screen and (max-width: 380px){
-    .courses{
-        width: 330px;
-        height: 470px;
-    }
-    .courses div h2{
-        font-size: 15px;
-    }
-    #exception{
-        font-size: 10px;
-    }
-
-}
-
-
 
 
 
@@ -505,7 +391,7 @@ main #home-sec img {
 
 #title{
     color: rgb(100, 100, 100);
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 2.5em;
     text-align: center;
     padding-bottom: 20px;
