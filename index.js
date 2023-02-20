@@ -7,6 +7,8 @@ let submitButton = document.getElementById("submit-button");
 submitButton.addEventListener("click", feedback);
 
 
+
+
 // Navbar
 
 const buttons = document.querySelectorAll('.nav-bar li a');

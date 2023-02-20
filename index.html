@@ -15,11 +15,11 @@
 </head>
 <body>
 
-    <div id="loader" >
+    <!-- <div id="loader" >
         <div class="container">
             <h2 class="" data-text="HelloWorld...">HelloWorld...</h2>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -30,11 +30,11 @@
             <li class='logo'><a href='#'><img src='../img/websitelogo.png'/></a></li>
             <input type='checkbox' id='check' />
             <span class="menu">
-                <li><a href="#home-sec">მთავარiiiი</a></li>
+                <li><a href="#home-sec">მთავარი</a></li>
                 <li><a href="#about-sec">ჩვენ შესახებ</a></li>
                 <li><a href="#course-sec">კურსები</a></li>
-                <li><a href="#contact-sec">კონტაქტი</a></li>
                 <li><a href="#feedback-sec">უკუკავშირი</a></li>
+                <li><a href="#contact-sec">კონტაქტი</a></li>
                 <a class="change-language" href="engversion/indexeng.html"><img class="change-language-img" src="../img/usa.png"></a>
                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
             </span>
@@ -121,7 +121,33 @@
         </section>
 
         <section id="banner-sec" class="banner-sec"></section>
-
+        
+        <section class="feedback-sec" id="feedback-sec">
+            
+            <div class="feedback-text-div">
+                <h1 class="reveal-on-scroll" >ჰაკადემი</h1>
+                <p class="reveal-on-scroll" >Share your thoughts on how<br>we can improve our site.</p>
+            </div>
+            
+            <div class="feedback-div">
+                <h1 class="reveal-on-scroll" >უკუკავშირი</h1>
+                
+                <form class="reveal-on-scroll" >
+                    <div>
+                        <input class="my-input" type="text" id="name" placeholder="სახელი" >
+                        <input class="my-input" type="text" id="surname" placeholder="გვარი" >
+                    </div>
+                    <br>
+                    <input  class="my-input" style="width: 98%; margin: -10px 0 0 0;" type="email" id="email" placeholder="ემაილი" >
+                    <br>
+                    <input class="my-input" style="width: 98%;"  type="text" id="feedback" placeholder="გამოგვიგზავნეთ შენიშვნები" >
+                    <br>
+                    <button id="submit-button">დასტური</button>
+                </form>
+                
+            </div>
+        </section>
+        
         <section id="contact-sec">
             <h1 class="reveal-on-scroll" id="title" style="text-align: center; margin-bottom: 1em;">დაგვიკავშირდით</h1>
 
@@ -143,33 +169,6 @@
         </section>
 
         <section id="banner-sec" class="banner-sec"></section>
-
-        <section class="feedback-sec" id="feedback-sec">
-
-                <div class="feedback-text-div">
-                    <h1 class="reveal-on-scroll" >ჰაკადემი</h1>
-                    <p class="reveal-on-scroll" >Share your thoughts on how<br>we can improve our site.</p>
-                </div>
-
-                <div class="feedback-div">
-                    <h1 class="reveal-on-scroll" >უკუკავშირი</h1>
-
-                    <form class="reveal-on-scroll" >
-                        <div>
-                            <input class="my-input" type="text" id="name" placeholder="სახელი" >
-                            <input class="my-input" type="text" id="surname" placeholder="გვარი" >
-                        </div>
-                        <br>
-                        <input  class="my-input" style="width: 98%; margin: -10px 0 0 0;" type="email" id="email" placeholder="ემაილი" >
-                        <br>
-                        <input class="my-input" style="width: 98%;"  type="text" id="feedback" placeholder="გამოგვიგზავნეთ შენიშვნები" >
-                        <br>
-                        <button id="submit-button">დასტური</button>
-                    </form>
-
-                </div>
-        </section>
-
 
         <footer>
 
