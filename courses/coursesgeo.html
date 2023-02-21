@@ -15,6 +15,68 @@
     <title>კურსები</title>
 </head>
 <body>
-    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">ზემოთ</button>
+
+    <header>
+        <h1>ჩვენი კურსები</h1>
+    </header>
+    <main>
+        <section id="course-sec">
+
+            <div class="courses-parent">
+                <div class="course">
+                  <img src="../img/python.png">
+                  <p>PYTHON</p>
+                  <span class="course-span" ><a href="#" >ნახე მეტი</a></span>
+                </div>
+                <div class="course">
+                  <img src="../img/htmlcss.png">
+                  <p>HTML CSS</p>
+                  <span class="course-span" ><a href="#" >ნახე მეტი</a></span>
+                </div>
+                <div class="course">
+                  <img style="width: 105% !important;" src="../img/java.png">
+                  <p>JAVA</p>
+                  <span class="course-span" ><a href="#" >ნახე მეტი</a></span>
+                </div>
+                <div class="course">
+                  <img style="width: 111% !important;" src="../img/javascript.png">
+                  <p>JAVASCRIPT</p>
+                  <span class="course-span" ><a href="#" >ნახე მეტი</a></span>
+                </div>
+                <div class="course">
+                    <img src="../img/php.png">
+                    <p>PHP</p>
+                    <span class="course-span" ><a href="#" >ნახე მეტი</a></span>
+                  </div>
+                  
+                  <div class="course" id="comingsoon"></div>
+                  <div class="course" id="comingsoon"></div>
+                  <div class="course" id="comingsoon"></div>
+                  
+              </div>
+
+
+        </section>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 80) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    </main>
 </body>
 </html>
