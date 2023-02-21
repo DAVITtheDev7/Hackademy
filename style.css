@@ -452,7 +452,7 @@ main #home-sec img {
     color: rgb(119, 119, 119);
     font-size: 30px;
 }
-.course .course-span a:before{
+.course .course-span:before{
     display: none;
 }
 
