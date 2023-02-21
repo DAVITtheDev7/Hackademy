@@ -439,8 +439,20 @@ main #home-sec img {
 
 .course:hover{
     margin-top: -20px;
-    color: red;
+    box-shadow: 10px 10px 30px rgb(0, 42, 255),
+                10px 10px 20px rgb(193, 204, 255);
 }
+.course .course-span a{
+    color: transparent;
+    transition: 0.5s ease-out;
+    font-family: 'square';
+}
+
+.course:hover .course-span a{
+    color: rgb(119, 119, 119);
+    font-size: 30px;
+}
+
 
 
 
