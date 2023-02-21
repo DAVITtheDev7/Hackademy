@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="icon" type="image/x-icon" href="../img/tabicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <title>courses</title>
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header>
+        <h1>OUR COURSES</h1>
+    </header>
+    <main>
+        <section id="course-sec">
+
+            <div class="courses-parent">
+                <div class="course">
+                  <img src="../img/python.png">
+                  <p>PYTHON</p>
+                  <span class="course-span" ><a href="#" >SEE MORE</a></span>
+                </div>
+                <div class="course">
+                  <img src="../img/htmlcss.png">
+                  <p>HTML CSS</p>
+                  <span class="course-span" ><a href="#" >SEE MORE</a></span>
+                </div>
+                <div class="course">
+                  <img style="width: 105% !important;" src="../img/java.png">
+                  <p>JAVA</p>
+                  <span class="course-span" ><a href="#" >SEE MORE</a></span>
+                </div>
+                <div class="course">
+                  <img style="width: 111% !important;" src="../img/javascript.png">
+                  <p>JAVASCRIPT</p>
+                  <span class="course-span" ><a href="#" >SEE MORE</a></span>
+                </div>
+                <div class="course">
+                    <img src="../img/php.png">
+                    <p>PHP</p>
+                    <span class="course-span" ><a href="#" >SEE MORE</a></span>
+                  </div>
+                  
+                  <div class="course" id="comingsoon"></div>
+                  <div class="course" id="comingsoon"></div>
+                  <div class="course" id="comingsoon"></div>
+                  
+              </div>
+
+
+        </section>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 80) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    </main>
+</body>
+</html>

@@ -30,7 +30,6 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
-
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -127,7 +126,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         position: fixed;
         top: 0;
