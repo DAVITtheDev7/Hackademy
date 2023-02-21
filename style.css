@@ -436,9 +436,6 @@ main #home-sec img {
 #course-sec .courses-a:hover{
     box-shadow: 1px 1px 30px rgb(0, 42, 255);
 }
-.course:hover{
-    transform: translateY(-20px);
-}
 
 
 
