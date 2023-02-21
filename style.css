@@ -169,8 +169,7 @@ body {
 
 
 main #home-sec{
-    background-image:url(img/back.png);
-    background-color: black;
+    background-color: transparent;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -831,3 +830,18 @@ footer{
 
 
 
+/* back */
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
