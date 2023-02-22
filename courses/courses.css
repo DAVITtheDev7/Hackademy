@@ -222,15 +222,6 @@ body{
     .courses-parent{
         flex-direction: column;
     }
-    .course-img{
-        width: auto;
-        display: flex;
-    }
-    .course-img img{
-        width: 500px;
-        height: 420px;
-    }
-    
 }
 
 @media screen and (max-width: 630px){
@@ -256,16 +247,5 @@ body{
 @media screen and (max-width:390px){
     .not-active{
         font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .course-img{
-        width: auto;
-        display: flex;
-    }
-    .course-img img{
-        width: 500px;
-        height: 300px;
     }
 }
