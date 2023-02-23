@@ -51,7 +51,6 @@ body {
     list-style: none;
     position: fixed;
     padding: 12px 20px;
-    backdrop-filter: blur(5px);
 }
 .logo img {
     width: 250px;
@@ -133,14 +132,14 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         position: fixed;
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: rgb(14, 14, 14);
         transition: all 0.2s ease-in-out;
+        backdrop-filter: blur(15px);
     }
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
