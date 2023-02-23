@@ -58,9 +58,7 @@ body {
 .menu {
     display: flex;
 }
-.menu li {
-    padding-left: 30px;
-}
+
 .menu li a {
     display: inline-block;
     text-decoration: none;
