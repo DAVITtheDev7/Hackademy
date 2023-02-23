@@ -143,9 +143,6 @@ body {
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
-    .change-language{
-        padding-left: 30px;
-    }
 
 }
 
@@ -153,17 +150,11 @@ body {
     .nav-bar .logo img{
         width: 200px;
     }
-    .change-language{
-        padding-left: 30px;
-    }
 }
 
 @media (max-width:350px){
     .nav-bar .logo img{
         width: 150px;
-    }
-    .change-language{
-        padding-left: 20px;
     }
 }
 
