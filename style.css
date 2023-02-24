@@ -951,3 +951,44 @@ footer{
         font-size: 20px;
     }
 }
+
+
+/* Cookies */
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cookie-banner p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  #accept-cookies {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #accept-cookies:hover {
+    background-color: #0062cc;
+  }
+  

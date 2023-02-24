@@ -66,3 +66,16 @@ window.addEventListener('load', function() {
 
 // animation
 
+
+
+// cookies
+
+const cookieBanner = document.querySelector('.cookie-banner');
+const acceptCookiesButton = document.querySelector('#accept-cookies');
+
+function acceptCookies() {
+  cookieBanner.style.display = 'none';
+}
+
+acceptCookiesButton.addEventListener('click', acceptCookies);
+
