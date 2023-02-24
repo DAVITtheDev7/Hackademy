@@ -738,7 +738,7 @@ main #home-sec img {
     color: #2a9d8f;
     font-size: 20px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 #feedback-sec .feedback-div button:hover{
     box-shadow:
@@ -926,3 +926,25 @@ footer{
         height: 100%;
     }
 }
+
+
+
+
+
+/* ----------- */
+
+#message {
+    display: none;
+    position: fixed;
+    padding: 300px 0;
+    font-size: 50px;
+    color: rgb(128, 128, 128);
+    backdrop-filter: blur(10px);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+  
+  

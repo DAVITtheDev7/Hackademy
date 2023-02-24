@@ -234,3 +234,32 @@ a.silabus-a{
         width: auto;
     }
 }
+
+
+/* footer */
+
+footer{
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer p{
+    color: #2A9D8F;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 600px){
+    footer p{
+        color: grey;
+        font-size: 10px;
+    }
+}
+
+footer{
+    overflow-y: hidden;
+}

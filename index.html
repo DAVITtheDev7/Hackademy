@@ -154,7 +154,13 @@
                     <br>
                     <input class="my-input" style="width: 98%;"  type="text" id="feedback" placeholder="გამოგვიგზავნეთ შენიშვნები" >
                     <br>
-                    <button style="font-family: 'ArchyEDT-Bold';" id="submit-button">დასტური</button>
+                    <form>
+                        <button id="feedback-btn">Submit Feedback</button>
+                    </form>
+                    <div id="message"></div>
+                      
+
+
                 </form>
                 
             </div>
@@ -170,9 +176,19 @@
 
 
    </main>
+    
+   <script>
+    document.getElementById("feedback-btn").addEventListener("click", function(event) {
+    event.preventDefault();
+    var message = document.getElementById("message");
+    var name = document.getElementById("name").value
+    message.style.display = "block";
+    message.innerHTML = "მადლობა "+name+" გამოხმაურებისთვის!";
+    setTimeout(function(){ message.style.display = "none"; }, 2000);
+  });
+  </script>
 
-    
-    
+
     <script src="index.js" ></script>
 
 </body>

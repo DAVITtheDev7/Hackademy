@@ -157,7 +157,10 @@
                         <br>
                         <input class="my-input" style="width: 98%;"  type="text" id="feedback" placeholder="SEND US YOUR FEEDBACK" >
                         <br>
-                        <button id="submit-button">SUBMIT</button>
+                        <form>
+                          <button id="feedback-btn">Submit Feedback</button>
+                      </form>
+                      <div id="message"></div>
                     </form>
                     
                 </div>
@@ -173,6 +176,16 @@
 
    </main>
 
+  <script>
+    document.getElementById("feedback-btn").addEventListener("click", function(event) {
+    event.preventDefault();
+    var message = document.getElementById("message");
+    var name = document.getElementById("name").value
+    message.style.display = "block";
+    message.innerHTML = "Thanks "+name+" for your feedback!";
+    setTimeout(function(){ message.style.display = "none"; }, 2000);
+  });
+  </script>
     
     
     <script src="../index.js" ></script>
