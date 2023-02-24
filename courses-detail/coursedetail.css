@@ -187,10 +187,9 @@ h1.title-h1{
 
 p.description-p{
     font-size: 30px;
-}
-p.description-p{
     width: 650px;
 }
+
 p.price-p{
     font-size: 50px;
     text-align: center;
@@ -217,4 +216,21 @@ a.silabus-a{
 .main-image-div img{
     width: 450px;
     height: 550px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .main-image-div img{
+        display: none;
+    }
+    .first-sec{
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+    p.description-p{
+        font-size: 30px;
+        width: auto;
+    }
 }
