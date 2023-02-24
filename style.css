@@ -33,7 +33,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     list-style-type: none;
     text-decoration: none;
@@ -440,11 +439,23 @@ main #home-sec img {
   
   .courses-parent{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 10px;
     gap: 20px;
+    overflow: hidden;
+    white-space: nowrap;
   }
+
+@media screen and (max-width: 1350px){
+    .courses-parent{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 20px;
+        overflow: auto !important;
+        white-space: nowrap;
+      }
+}
   
   .course-see-more{
     font-size: 25px;
@@ -507,7 +518,7 @@ main #home-sec img {
 #title{
     color: #2A9D8F;
     font-size: 50px;
-    margin-top: 1.7em;
+    padding-top: 1.7em;
     text-align: center;
     padding-bottom: 20px;
 }
