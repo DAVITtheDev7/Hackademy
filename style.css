@@ -456,6 +456,12 @@ main #home-sec img {
         white-space: nowrap;
       }
 }
+
+@media screen and (max-width: 390px){
+    .course{
+        width: 100%;
+    }
+}
   
   .course-see-more{
     font-size: 25px;
