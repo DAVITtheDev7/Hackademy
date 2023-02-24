@@ -488,6 +488,15 @@ main #home-sec img {
     box-shadow: 1px 1px 10px white;
 }
 
+.course-see-more span {
+    transition: transform 0.2s ease-in-out;
+    transition: 1s;
+  }
+  
+.course-see-more:hover span {
+    padding-left: 10px;
+  }
+  
 
 
 
