@@ -42,6 +42,7 @@ body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF ;
     --color2: #181818 ;
+    overflow-x: hidden;
 }
 .header {
     color: #fff;
@@ -845,7 +846,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   
   .container{
@@ -854,7 +855,7 @@ footer{
     align-items: center;
     min-height: 100vh;
     background: #000000;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .container h2{

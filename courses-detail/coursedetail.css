@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+
+
+@font-face {
+    font-family: 'techno hideo';
+    src: url(fonts/techno_hideo/techno_hideo.ttf);
+}
+@font-face {
+    font-family: 'square';
+    src: url(fonts/aldo_the_apache/AldotheApache.ttf);
+}
+
+@font-face{
+    font-family: 'georgian';
+    src: url(fonts/georgian/69_tall.ttf);
+}
+
+@font-face {
+    font-family: 'hello world';
+    src: url(fonts/hello_world/hello-world.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'ArchyEDT-Bold';
+    color: #2A9D8F;
+    transition: 0.5s;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #181818 ;
+    overflow-x: hidden;
+    background-color: black;
+}
+.header {
+    color: #fff;
+    height: 100px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    padding: 12px 20px;
+    background-color: #0000007b;
+}
+.logo img {
+    width: 250px;
+}
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'ArchyEDT-Bold';
+}
+.menu li a{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    color: #2A9D8F;
+}
+
+
+
+
+.menu li a{
+    border-bottom: 2px solid transparent;
+    position: relative;
+  }
+  
+.menu li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2A9D8F;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+.menu li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {
+    display: none;
+}
+
+img.change-language-img:hover{
+    transform: rotate(360deg);
+}
+
+
+@media(max-width: 1150px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: all 0.2s ease-in-out;
+        backdrop-filter: blur(15px);
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+
+}
+
+@media (max-width:550px){
+    .nav-bar .logo img{
+        width: 200px;
+    }
+}
+
+@media (max-width:350px){
+    .nav-bar .logo img{
+        width: 150px;
+    }
+}
+
+/* ------------------------------ */
+
+
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+}
+h1.title-h1{
+    font-size: 50px;
+}
+
+p.description-p{
+    font-size: 30px;
+}
+p.description-p{
+    width: 650px;
+}
+p.price-p{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.for-a{
+    text-align: center;
+    margin-top: 20px;
+}
+.for-a a{
+    font-size: 40px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.for-a a:hover{
+    box-shadow: 1px 1px 10px white;
+}
+a.silabus-a{
+    padding:20px 50px !important;
+}
+.main-image-div img{
+    width: 450px;
+    height: 550px;
+}
