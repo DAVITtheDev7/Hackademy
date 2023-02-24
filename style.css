@@ -23,6 +23,11 @@
     src: url(fonts/georgian/69_tall.ttf);
 }
 
+@font-face {
+    font-family: 'hello world';
+    src: url(fonts/hello_world/hello-world.ttf);
+}
+
 
 *{
     box-sizing: border-box;
@@ -78,7 +83,7 @@ body {
     text-align: center;
     font-size: 25px;
     position: relative;
-    color: #11ff00;
+    color: #2A9D8F;
 }
 
 
@@ -96,7 +101,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(60, 255, 0);
+    background-color: #2A9D8F;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -184,16 +189,20 @@ main #home-sec div{
     text-align: center;
     overflow-y: hidden;
 }
+
 main #home-sec div h1{
-    color: #23980e;
+    color: #2A9D8F;
     font-size: 30px;
+    text-shadow: 1px 1px 10px #2A9D8F;
 }
+
 main #home-sec div p{
-    color: #009E1D;
+    color: #2A9D8F;
     padding-bottom: 20px;
 }
+
 main #home-sec div h1 span{
-    color: #00FF11;
+    color: #63908b;
     font-size: 100px;
 }
 
@@ -202,6 +211,7 @@ main .banner-sec{
     height: 200px;
     background-color: #040404;
 }
+
 
 
 
@@ -277,7 +287,7 @@ main #home-sec img {
 #about-sec h1{
     font-size: 50px;
     margin: 40px 0;
-    color: rgb(100, 100, 100);
+    color: #27ae9c;
     text-align: center;
 }
 #about-sec #about-image{
@@ -289,7 +299,7 @@ main #home-sec img {
 #about-sec p{
     font-size: 35px;
     text-align: center;
-    color: rgb(100, 100, 100);
+    color: #2A9D8F;
 }
 
 @media screen and (min-width:1090px){
@@ -384,6 +394,7 @@ main #home-sec img {
 
 .courses-a{
     text-align: center;
+    color: #2A9D8F;
 }
 
 
@@ -469,7 +480,7 @@ main #home-sec img {
     padding: 15px;
     border: 2px solid grey;
     font-size: 20px;
-    color: rgb(112, 112, 112);
+    color: #2A9D8F;
     border-radius: 15px;
 } 
 
@@ -482,7 +493,7 @@ main #home-sec img {
 
 
 #title{
-    color: rgb(100, 100, 100);
+    color: #2A9D8F;
     font-size: 50px;
     margin-top: 1.7em;
     text-align: center;
@@ -641,11 +652,11 @@ main #home-sec img {
 
 #feedback-sec .feedback-text-div h1{
     font-size: 65px;
-    color: rgb(227, 227, 227);
+    color: #2A9D8F;
 }
 #feedback-sec .feedback-text-div p{
     font-size: 50px;
-    color: rgb(78, 78, 78);
+    color: #446b66;
 }
 
 #feedback-sec .feedback-div{
@@ -654,15 +665,16 @@ main #home-sec img {
 }
 #feedback-sec .feedback-div h1{
     font-size: 70px;
-    color: rgb(100, 100, 100);
+    color: #2A9D8F;
 }
 
 #feedback-sec .feedback-div input{
     border-radius: 5px;
     background-color: transparent;
-    border: 0.5px solid rgb(100, 100, 100);
+    border: none;
+    box-shadow: 1px 1px 1px #2A9D8F;
     outline: none;
-    color: rgb(100, 100, 100);
+    color: #2A9D8F;
     outline: none;
     height: 50px;
     padding: 20px;
@@ -687,21 +699,20 @@ main #home-sec img {
 
 #feedback-sec .feedback-div button{
     border-radius: 5px;
-    background-color: #000000; 
+    background-color: transparent;
+    box-shadow: 0 0 5px #2A9D8F; 
     outline: none;
-    border: 1px solid rgb(100, 100, 100);
+    border: none;
     width: 98%;
     height: 50px;
-    color: #7e7e7e;
+    color: #2a9d8f;
     font-size: 20px;
     cursor: pointer;
     transition: 1s;
 }
 #feedback-sec .feedback-div button:hover{
     box-shadow:
-    0 0 5px white,
-    0 0 5px white,
-    0 0 5px white;
+    0 0 10px #2A9D8F;
 }
 
 
@@ -765,7 +776,7 @@ footer{
 
 
 footer p{
-    color: rgb(255, 255, 255);
+    color: #2A9D8F;
     font-size: 15px;
 }
 
@@ -831,8 +842,8 @@ footer{
     left: 0;
     width: 0;
     height: 100%;
-    color: #15ff00;
-    border-right: 2px solid #158307;
+    color: #1479ed;
+    border-right: 2px solid #03b2d5;
     overflow: hidden;
     animation: animate 1s  linear infinite;
 }
