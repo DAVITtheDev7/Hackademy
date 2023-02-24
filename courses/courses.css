@@ -70,7 +70,7 @@ body {
   text-align: center;
   font-size: 25px;
   position: relative;
-  color: #11ff00;
+  color: #2A9D8F;
 }
 
 
@@ -91,7 +91,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgb(60, 255, 0);
+  background-color: #2A9D8F;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
