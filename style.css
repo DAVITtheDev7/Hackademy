@@ -132,6 +132,9 @@ body {
     display: none;
 }
 
+img.change-language-img:hover{
+    transform: rotate(360deg);
+}
 
 
 @media(max-width: 1150px){
