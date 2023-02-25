@@ -948,7 +948,7 @@ footer{
   
 @media screen and (max-width: 800px){
     #message{
-        font-size: auto;
+        font-size: 25px;
     }
 }
 
