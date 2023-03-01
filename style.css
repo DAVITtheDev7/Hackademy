@@ -60,6 +60,7 @@ body {
     position: fixed;
     padding: 12px 20px;
     background-color: #0000007b;
+    border-bottom: 1px solid rgb(17, 86, 139);
 }
 .logo img {
     width: 250px;
@@ -78,6 +79,9 @@ body {
     text-transform: uppercase;
     font-family: 'ArchyEDT-Bold';
 }
+.menu li a:hover{
+    text-shadow: 1px 1px 20px rgb(42, 108, 142);
+}
 .menu li a{
     padding: 10px 20px;
     text-align: center;
@@ -85,6 +89,8 @@ body {
     position: relative;
     color: #2A9D8F;
 }
+
+
 
 
 
