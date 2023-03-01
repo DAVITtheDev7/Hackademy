@@ -148,6 +148,7 @@ body {
         z-index: 100;
         transition: all 0.2s ease-in-out;
         backdrop-filter: blur(15px);
+        background-color: #0000007b;
     }
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
@@ -186,9 +187,8 @@ main #home-sec {
     flex-direction: column;
 }
 
-main #home-sec a{
+main #home-sec .reg-a{
     border: 2px solid rgb(19, 123, 150);
-    backdrop-filter: blur(5px);
     margin-top: 20px;
     padding: 20px;
     font-size: 20px;
@@ -196,13 +196,12 @@ main #home-sec a{
     color: rgb(141, 132, 132);
     transition: 0.5s ease-in-out;
 }
-main #home-sec a:hover{
-    transform: scale(1.1);
+main #home-sec .reg-a:hover{
     box-shadow: 1px 1px 10px lightskyblue;
 }
 
 @media screen and (max-width:900px){
-    main #home-sec a{
+    main #home-sec .reg-a{
         font-size: 14px;
     }
 }
