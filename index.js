@@ -68,14 +68,37 @@ window.addEventListener('load', function() {
 
 
 
+
+
+
 // cookies
 
-const cookieBanner = document.querySelector('.cookie-banner');
-const acceptCookiesButton = document.querySelector('#accept-cookies');
+const acceptBtn = document.getElementById("accept-cookies");
 
-function acceptCookies() {
-  cookieBanner.style.display = 'none';
-}
+acceptBtn.addEventListener("click", () => {
+  document.cookie = "accepted-cookies=true; expires=" + new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toUTCString();
+  
+  const cookieBanner = document.querySelector(".cookie-banner");
+  cookieBanner.style.display = "none";
+});
 
-acceptCookiesButton.addEventListener('click', acceptCookies);
+
+
+
+
+
+
+
+// Feedback
+
+document.getElementById("feedback-btn").addEventListener("click", function(event) {
+  event.preventDefault();
+  var message = document.getElementById("message");
+  var name = document.getElementById("name").value
+  message.style.display = "block";
+  message.innerHTML = "მადლობა "+name+" გამოხმაურებისთვის!";
+  setTimeout(function(){ message.style.display = "none"; }, 2000);
+});
+
+
 

@@ -88,7 +88,7 @@
                     </div>
                     <div style="overflow: hidden;" class="responsive-course" >
                       <p class="course-description">კურსის მიზანია სტუდენტებმა ისწავლონ<br>პაითონის ენა, სინტაქსი და ინსტრუმენტები,<br>ცვლადები, ლოგიკურ ოპერაციებთან<br> და ალგორითმებთან  მუშაობა, შეცდომების,<br>“ბაგების” დაჭერა კოდში და<br>პროგრამის მდგრადობის გაზრდა.</p>
-                      <a class="course-see-more" href="courses-detail/coursedetail.html" >დეტალურად<span >➜</span></a>
+                      <a class="course-see-more" href="courses-detail/pythondetail.html" >დეტალურად<span >➜</span></a>
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                       </div>
                       <div style="overflow: hidden;" class="responsive-course" >
                         <p  class="course-description">კურსის მიზანია სტუდენტებმა ისწავლონ<br>HTML/CSS-ის საფუძვლები და ინსტრუმენტები,<br>მარტივი ვებსაიტების აწყობა.</p><br><br><br><br>
-                        <a class="course-see-more" href="courses-detail/coursedetail.html" >დეტალურად<span >➜</span></a>
+                        <a class="course-see-more" href="courses-detail/htmlcssdetail.html" >დეტალურად<span >➜</span></a>
                       </div>
                     </div>
                   </div>
@@ -150,7 +150,7 @@
                         <input class="my-input" type="text" id="surname" placeholder="გვარი" >
                     </div>
                     <br>
-                    <input  class="my-input" style="width: 98%; margin: -10px 0 0 0;" type="email" id="email" placeholder="ემაილი" >
+                    <input  class="my-input" style="width: 98%; margin: -10px 0 0 0;"  type="email" id="email" placeholder="ემაილი" >
                     <br>
                     <input class="my-input" style="width: 98%;"  type="text" id="feedback" placeholder="გამოგვიგზავნეთ შენიშვნები" >
                     <br>
@@ -183,16 +183,8 @@
 
    </main>
     
-   <script>
-    document.getElementById("feedback-btn").addEventListener("click", function(event) {
-    event.preventDefault();
-    var message = document.getElementById("message");
-    var name = document.getElementById("name").value
-    message.style.display = "block";
-    message.innerHTML = "მადლობა "+name+" გამოხმაურებისთვის!";
-    setTimeout(function(){ message.style.display = "none"; }, 2000);
-  });
-  </script>
+
+  
 
 
     <script src="index.js" ></script>
