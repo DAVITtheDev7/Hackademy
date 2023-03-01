@@ -201,6 +201,12 @@ main #home-sec a:hover{
     box-shadow: 1px 1px 10px lightskyblue;
 }
 
+@media screen and (max-width:900px){
+    main #home-sec a{
+        font-size: 14px;
+    }
+}
+
 main #home-sec div{
     margin: 0 auto;
     text-align: center;
