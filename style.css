@@ -959,12 +959,13 @@ body{
     position: fixed;
     padding: 300px 0;
     font-size: 50px;
-    color: rgb(128, 128, 128);
+    color: #d15c04;
     backdrop-filter: blur(10px);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 10000;
     
 }
   
