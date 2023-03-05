@@ -70,11 +70,11 @@ body {
     font-size: 40px;
     display: flex;
     align-items: center;
-    color: #f4845f;
+    color: #f37a5c;
 }
 .logo a span{
     color: transparent;
-    -webkit-text-stroke: 1px #f4845f;
+    -webkit-text-stroke: 1px #f37a5c;
 
 }
 .menu {
@@ -99,7 +99,7 @@ body {
     text-align: center;
     font-size: 25px;
     position: relative;
-    color: #f4845f;
+    color: #f37a5c;
 }
 
 
@@ -121,7 +121,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #f4845f;
+    background-color: #f37a5c;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -203,7 +203,7 @@ main .home-text-div h1{
     font-size: 130px;
     text-align: justify;
     color: transparent;
-    -webkit-text-stroke: 1.5px #f4845f;
+    -webkit-text-stroke: 1.5px #f37a5c;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -218,12 +218,12 @@ main .home-text-div h1{
 
 
 main .home-text-div a{
-    color: #f4845f;
+    color: #f37a5c;
     font-size: 25px;
     padding: 20px;
-    border: 2px solid #f4845f;
+    border: 2px solid #f37a5c;
     border-radius: 20px;
-    background-color: #f4845f0e;
+    background-color: #f37a5c0e;
     transition: 0.5s;
 }
 main .home-text-div a:hover{
@@ -232,7 +232,7 @@ main .home-text-div a:hover{
 
 
 #typewriter span{
-    text-shadow:0 0 10px #f4845f;
+    text-shadow:0 0 10px #f37a5c;
 }
 
 
@@ -257,7 +257,7 @@ main .home-text-div a:hover{
     font-size: 50px;
     margin: 40px 0;
     color: transparent;
-    -webkit-text-stroke: 1px #f4845f;
+    -webkit-text-stroke: 1px #f37a5c;
     text-align: center;
 }
 #about-sec #about-image{
@@ -267,7 +267,7 @@ main .home-text-div a:hover{
 #about-sec p{
     font-size: 35px;
     text-align: center;
-    color: #f4845f;
+    color: #f37a5c;
 }
 
 @media screen and (min-width:1090px){
@@ -362,13 +362,13 @@ main .home-text-div a:hover{
 
 .courses-a{
     text-align: center;
-    color: #f4845f;
+    color: #f37a5c;
 }
 
 
 
 .course:hover .course-span a{
-    color: #f4845f;
+    color: #f37a5c;
     font-size: 30px;
 }
 
@@ -376,21 +376,21 @@ main .home-text-div a:hover{
     display: flex;
     gap: 20px;
     width: 650px;
-    border: 2px solid #f4845f;
+    border: 2px solid #f37a5c;
     border-radius: 20px;
     padding: 15px;
     transition: 0.5s;
   }
 .course:hover{
-    box-shadow: 0 0 10px #f4845f;   
+    box-shadow: 0 0 10px #f37a5c;   
 }
   
   .course h1,.course p{
-    color: #f4845f;
+    color: #f37a5c;
   }
   .course-title span{
     color: transparent;
-    -webkit-text-stroke:1px #f4845f;
+    -webkit-text-stroke:1px #f37a5c;
     font-size: 30px;
   }
   
@@ -432,11 +432,11 @@ main .home-text-div a:hover{
   
   .course-see-more{
     font-size: 25px;
-    color: #f4845f;
+    color: #f37a5c;
     transition: 0.3s;
   }
   .course-see-more:hover{
-    color:#f4845f;
+    color:#f37a5c;
   }
   
   @media screen and (max-width: 670px){
@@ -465,14 +465,14 @@ main .home-text-div a:hover{
 
 .courses-last-a-a{
     padding: 15px;
-    border: 2px solid #f4845f;
+    border: 2px solid #f37a5c;
     font-size: 20px;
-    color: #f4845f;
+    color: #f37a5c;
     border-radius: 15px;
 } 
 
 .courses-last-a-a:hover{
-    box-shadow: 0 0 10px #f4845f;
+    box-shadow: 0 0 10px #f37a5c;
 }
 
 .course-see-more span {
@@ -490,7 +490,7 @@ main .home-text-div a:hover{
 
 #title{
     color: transparent;
-    -webkit-text-stroke: 1px #f4845f;
+    -webkit-text-stroke: 1px #f37a5c;
     font-size: 50px;
     padding-top: 1.7em;
     text-align: center;
@@ -642,11 +642,11 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-text-div h1{
     font-size: 65px;
     color: transparent;
-    -webkit-text-stroke: 1px #f4845f;
+    -webkit-text-stroke: 1px #f37a5c;
 }
 #feedback-sec .feedback-text-div p{
     font-size: 50px;
-    color: #f4845f;
+    color: #f37a5c;
 }
 
 #feedback-sec .feedback-div{
@@ -656,16 +656,16 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-div h1{
     font-size: 70px;
     color: transparent;
-    -webkit-text-stroke: 1px #f4845f;
+    -webkit-text-stroke: 1px #f37a5c;
 }
 
 #feedback-sec .feedback-div input{
     border-radius: 5px;
     background-color: transparent;
     border: none;
-    box-shadow: 1px 1px 1px #f4845f;
+    box-shadow: 1px 1px 1px #f37a5c;
     outline: none;
-    color: #f4845f;
+    color: #f37a5c;
     outline: none;
     height: 50px;
     padding: 20px;
@@ -691,7 +691,7 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-div button{
     border-radius: 5px;
     background-color: transparent;
-    box-shadow: 0 0 5px #f4845f; 
+    box-shadow: 0 0 5px #f37a5c; 
     outline: none;
     border: none;
     width: 98%;
@@ -702,7 +702,7 @@ main .home-text-div a:hover{
 }
 #feedback-sec .feedback-div button:hover{
     box-shadow:
-    0 0 10px #f4845f;
+    0 0 10px #f37a5c;
 }
 
 
@@ -766,7 +766,7 @@ footer{
 
 
 footer p{
-    color: #f4845f;
+    color: #f37a5c;
     font-size: 15px;
 }
 
@@ -842,8 +842,8 @@ footer{
     left: 0;
     width: 0;
     height: 100%;
-    color: #f4845f;
-    border-right: 2px solid #f4845f;
+    color: #f37a5c;
+    border-right: 2px solid #f37a5c;
     overflow: hidden;
     animation: animate 1s  linear infinite;
 }
