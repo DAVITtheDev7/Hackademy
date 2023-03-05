@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 @import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
 @import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-quadrosquare-caps/css/bpg-banner-quadrosquare-caps.min.css");
 
 
 @font-face {
@@ -201,10 +202,10 @@ main .home-text-div{
 main .home-text-div h1{
     font-size: 130px;
     text-align: justify;
-    line-height: 150px;
     color: transparent;
     -webkit-text-stroke: 1.5px #ff4400;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width:500px){
@@ -217,15 +218,22 @@ main .home-text-div h1{
 
 
 main .home-text-div a{
-    color: #c85e43;
+    color: #ff4400;
     font-size: 25px;
     padding: 20px;
-    border: 2px solid #c85e43;
+    border: 2px solid #ff4400;
     border-radius: 20px;
+    background-color: #ff44000e;
+    transition: 0.5s;
+}
+main .home-text-div a:hover{
+    box-shadow: 0 0 10px orange;
 }
 
 
-
+#typewriter span{
+    text-shadow:0 0 10px #ff4400;
+}
 
 
 
@@ -775,7 +783,11 @@ footer{
 }
 
 
-
+#banner-sec{
+    height: 200px;
+    width: 100%;
+    background-color: #0000;
+}
 
 
 
@@ -821,7 +833,6 @@ footer{
     position: relative;
     font-size: 50px;
     color: #1a1a1a;
-    font-family: 'Poppins', sans-serif;
 }
 
 .container h2:before{
@@ -831,8 +842,8 @@ footer{
     left: 0;
     width: 0;
     height: 100%;
-    color: #1479ed;
-    border-right: 2px solid #03b2d5;
+    color: #ff4400;
+    border-right: 2px solid #ff4400;
     overflow: hidden;
     animation: animate 1s  linear infinite;
 }
