@@ -71,16 +71,6 @@ window.addEventListener('load', function() {
 
 
 
-// cookies
-
-const acceptBtn = document.getElementById("accept-cookies");
-
-acceptBtn.addEventListener("click", () => {
-  document.cookie = "accepted-cookies=true; expires=" + new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toUTCString();
-  
-  const cookieBanner = document.querySelector(".cookie-banner");
-  cookieBanner.style.display = "none";
-});
 
 
 
