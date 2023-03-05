@@ -44,12 +44,24 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  background-color: #0000007b;
   position: fixed;
   padding: 12px 20px;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
 }
 .logo img {
-  width: 250px;
+  width: 35px;
+  margin-right: 5px;
+}
+.logo a{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #d15c04;
+}
+.logo a span{
+  color: transparent;
+  -webkit-text-stroke: 1px #d15c04;
+
 }
 .menu {
   display: flex;
@@ -70,7 +82,7 @@ body {
   text-align: center;
   font-size: 25px;
   position: relative;
-  color: #2A9D8F;
+  color: #d15c04;
 }
 
 
@@ -91,7 +103,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2A9D8F;
+  background-color: #d15c04;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -178,15 +190,19 @@ body {
     bottom: 20px;
     right: 30px;
     font-size: 18px;
-    border: none;
+    border: 1px solid #d15c04;
     outline: none;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
     transition: 0.5s;
-    backdrop-filter: blur(5px);
+    color: #d15c04;
+    background-color: transparent;
   }
   
+  #myBtn:hover{
+    box-shadow: 0 0 10px #d15c04;
+  }
 
 
 
@@ -225,7 +241,7 @@ body {
   display: flex;
   gap: 20px;
   width: 650px;
-  border: 2px solid grey;
+  border: 2px solid #d15c04;
   border-radius: 20px;
   padding: 15px;
   transition: 0.5s;
@@ -235,10 +251,11 @@ body {
 }
 
 .course h1,.course p{
-  color: rgb(84, 84, 84);
+  color: #d15c04;
 }
 .course-title span{
-  color: white;
+  color: transparent;
+  -webkit-text-stroke:1px #d15c04;
   font-size: 30px;
 }
 
@@ -262,11 +279,11 @@ body {
 
 .course-see-more{
   font-size: 25px;
-  color: rgb(152, 152, 152);
+  color: #d15c04;
   transition: 0.3s;
 }
 .course-see-more:hover{
-  color:rgb(255, 255, 255);
+  color:#d15c04;
 }
 .course-see-more span {
   transition: transform 0.2s ease-in-out;
@@ -310,7 +327,7 @@ footer{
 
 
 footer p{
-  color: #2A9D8F;
+  color: #d15c04;
   font-size: 15px;
 }
 

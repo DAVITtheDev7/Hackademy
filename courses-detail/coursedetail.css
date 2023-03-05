@@ -37,7 +37,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
-    color: #2A9D8F;
+    color: #d15c04;
     transition: 0.5s;
 }
 body {
@@ -62,11 +62,23 @@ body {
     list-style: none;
     position: fixed;
     padding: 12px 20px;
-    background-color: #0000007b;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
 }
 .logo img {
-    width: 250px;
-}
+    width: 35px;
+    margin-right: 5px;
+  }
+  .logo a{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: #d15c04;
+  }
+  .logo a span{
+    color: transparent;
+    -webkit-text-stroke: 1px #d15c04;
+  
+  }
 .menu {
     display: flex;
 }
@@ -86,7 +98,7 @@ body {
     text-align: center;
     font-size: 25px;
     position: relative;
-    color: #2A9D8F;
+    color: #d15c04;
 }
 
 
@@ -104,7 +116,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #2A9D8F;
+    background-color: #d15c04;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
