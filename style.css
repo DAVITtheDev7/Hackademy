@@ -61,11 +61,14 @@ body {
     position: fixed;
     padding: 12px 20px;
     background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 999;
 }
 .logo img {
     width: 35px;
     margin-right: 5px;
 }
+
+
 .logo a{
     font-size: 40px;
     display: flex;
@@ -699,6 +702,7 @@ main .home-text-div a:hover{
     font-size: 20px;
     cursor: pointer;
     transition: 0.5s;
+    color: #d15c04;
 }
 #feedback-sec .feedback-div button:hover{
     box-shadow:
@@ -814,25 +818,34 @@ footer{
     height: 100%;
     backdrop-filter: blur(20px);
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 10;
+    z-index: 10000;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
   }
   
-  .container{
+  /* .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-}
+} */
 
 .container h2{
     position: relative;
     font-size: 50px;
     color: #1a1a1a;
+}
+.container img{
+    width: 50px;
+    animation: spin 1s infinite;
+}
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 
 .container h2:before{

@@ -15,6 +15,7 @@
     src: url(../fonts/aldo_the_apache/AldotheApache.ttf);
 }
 
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -87,7 +88,8 @@ body {
 
 
 .active{
-  background-color: rgb(31, 31, 31);
+  border: 1px solid #d15c04;
+  border-radius: 10px;
 }
 
 
@@ -155,19 +157,6 @@ body {
   .menu li a {padding: 10px;}
   .open-menu , .close-menu {display: block;}
   #check:checked ~ .menu {right: 0;}
-
-}
-
-@media (max-width:550px){
-  .nav-bar .logo img{
-      width: 200px;
-  }
-}
-
-@media (max-width:350px){
-  .nav-bar .logo img{
-      width: 150px;
-  }
 
 }
 
@@ -247,7 +236,7 @@ body {
   transition: 0.5s;
 }
 .course:hover{
-  box-shadow: 1px 1px 10px white;   
+  box-shadow: 1px 1px 10px #d15c04;   
 }
 
 .course h1,.course p{

@@ -28,6 +28,9 @@
     src: url(fonts/hello_world/hello-world.ttf);
 }
 
+html{
+    height: 100%
+  }
 
 *{
     box-sizing: border-box;
@@ -174,17 +177,7 @@ img.change-language-img:hover{
 
 }
 
-@media (max-width:550px){
-    .nav-bar .logo img{
-        width: 200px;
-    }
-}
 
-@media (max-width:350px){
-    .nav-bar .logo img{
-        width: 150px;
-    }
-}
 
 /* ------------------------------ */
 
@@ -214,7 +207,7 @@ p.price-p{
 }
 .for-a a{
     font-size: 40px;
-    border: 2px solid grey;
+    border: 2px solid #d15c04;
     border-radius: 20px;
     padding: 20px;
 }
@@ -224,6 +217,7 @@ p.price-p{
 }
 a.silabus-a{
     padding:20px 50px !important;
+    margin-bottom: 50px !important;
 }
 .main-image-div img{
     width: 450px;
@@ -240,6 +234,7 @@ a.silabus-a{
         justify-content: center;
         text-align: center;
         padding: 0 20px;
+        height: 100vh;
     }
     p.description-p{
         font-size: 30px;
