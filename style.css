@@ -205,7 +205,19 @@ main .home-text-div h1{
     -webkit-text-stroke: 1.5px #d15c04;
     text-align: center;
     margin-bottom: 50px;
+    animation: floatwin 3s ease-in-out infinite;
 }
+@keyframes floatwin {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 @media screen and (max-width:500px){
     main .home-text-div h1{
@@ -213,7 +225,6 @@ main .home-text-div h1{
     }
 }
 
-  
 
 
 main .home-text-div a{
@@ -224,7 +235,21 @@ main .home-text-div a{
     border-radius: 20px;
     background-color: #d15c040e;
     transition: 0.5s;
+    animation: colorchange 2s ease-in-out infinite;
 }
+
+@keyframes colorchange {
+  0% {
+    box-shadow:0 0 10px #d15d0400;
+  }
+  50% {
+    box-shadow:0 0 20px #d15c04;
+  }
+  100% {
+    box-shadow:0 0 10px #d15d0400;
+  }
+}
+
 main .home-text-div a:hover{
     box-shadow: 0 0 10px orange;
 }
@@ -233,6 +258,8 @@ main .home-text-div a:hover{
 #typewriter span{
     text-shadow:0 0 10px #d15c04;
 }
+
+
 
 
 
@@ -261,7 +288,8 @@ main .home-text-div a:hover{
 }
 #about-sec #about-image{
     margin: 0 auto;
-    border-radius: 20px;
+    animation: floatwin 3s ease-in-out infinite;
+
 }
 #about-sec p{
     font-size: 35px;
