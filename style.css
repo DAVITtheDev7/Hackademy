@@ -70,11 +70,11 @@ body {
     font-size: 40px;
     display: flex;
     align-items: center;
-    color: blue;
+    color: #ff4400;
 }
 .logo a span{
     color: transparent;
-    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke: 1px #ff4400;
 
 }
 .menu {
@@ -92,14 +92,14 @@ body {
     font-family: 'ArchyEDT-Bold';
 }
 .menu li a:hover{
-    text-shadow: 1px 1px 20px blue;
+    text-shadow: 1px 1px 20px rgb(179, 42, 11);
 }
 .menu li a{
     padding: 10px 20px;
     text-align: center;
     font-size: 25px;
     position: relative;
-    color: blue;
+    color: #D35100;
 }
 
 
@@ -121,7 +121,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: blue;
+    background-color: #D35100;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -203,7 +203,7 @@ main .home-text-div h1{
     font-size: 130px;
     text-align: justify;
     color: transparent;
-    -webkit-text-stroke: 1.5px blue;
+    -webkit-text-stroke: 1.5px #ff4400;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -218,12 +218,12 @@ main .home-text-div h1{
 
 
 main .home-text-div a{
-    color: blue;
+    color: #ff4400;
     font-size: 25px;
     padding: 20px;
-    border: 2px solid blue;
+    border: 2px solid #ff4400;
     border-radius: 20px;
-    background-color: blue0e;
+    background-color: #ff44000e;
     transition: 0.5s;
 }
 main .home-text-div a:hover{
@@ -232,7 +232,7 @@ main .home-text-div a:hover{
 
 
 #typewriter span{
-    text-shadow:0 0 10px blue;
+    text-shadow:0 0 10px #ff4400;
 }
 
 
@@ -257,7 +257,7 @@ main .home-text-div a:hover{
     font-size: 50px;
     margin: 40px 0;
     color: transparent;
-    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke: 1px #ff4400;
     text-align: center;
 }
 #about-sec #about-image{
@@ -267,7 +267,7 @@ main .home-text-div a:hover{
 #about-sec p{
     font-size: 35px;
     text-align: center;
-    color: blue;
+    color: #a42c00;
 }
 
 @media screen and (min-width:1090px){
@@ -362,13 +362,13 @@ main .home-text-div a:hover{
 
 .courses-a{
     text-align: center;
-    color: blue;
+    color: #9d2a2a;
 }
 
 
 
 .course:hover .course-span a{
-    color: blue;
+    color: #ff4400;
     font-size: 30px;
 }
 
@@ -376,21 +376,21 @@ main .home-text-div a:hover{
     display: flex;
     gap: 20px;
     width: 650px;
-    border: 2px solid blue;
+    border: 2px solid #ff4400;
     border-radius: 20px;
     padding: 15px;
     transition: 0.5s;
   }
 .course:hover{
-    box-shadow: 0 0 10px blue;   
+    box-shadow: 0 0 10px #ff4400;   
 }
   
   .course h1,.course p{
-    color: blue;
+    color: #9e2a00;
   }
   .course-title span{
     color: transparent;
-    -webkit-text-stroke:1px blue;
+    -webkit-text-stroke:1px #ff4400;
     font-size: 30px;
   }
   
@@ -432,11 +432,11 @@ main .home-text-div a:hover{
   
   .course-see-more{
     font-size: 25px;
-    color: blue;
+    color: #cf3700;
     transition: 0.3s;
   }
   .course-see-more:hover{
-    color:blue;
+    color:#ff4400;
   }
   
   @media screen and (max-width: 670px){
@@ -465,14 +465,14 @@ main .home-text-div a:hover{
 
 .courses-last-a-a{
     padding: 15px;
-    border: 2px solid blue;
+    border: 2px solid #ff4400;
     font-size: 20px;
-    color: blue;
+    color: #ff4400;
     border-radius: 15px;
 } 
 
 .courses-last-a-a:hover{
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px #ff4400;
 }
 
 .course-see-more span {
@@ -490,7 +490,7 @@ main .home-text-div a:hover{
 
 #title{
     color: transparent;
-    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke: 1px #ff4400;
     font-size: 50px;
     padding-top: 1.7em;
     text-align: center;
@@ -642,11 +642,11 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-text-div h1{
     font-size: 65px;
     color: transparent;
-    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke: 1px #ff4400;
 }
 #feedback-sec .feedback-text-div p{
     font-size: 50px;
-    color: blue;
+    color: #962800;
 }
 
 #feedback-sec .feedback-div{
@@ -656,14 +656,14 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-div h1{
     font-size: 70px;
     color: transparent;
-    -webkit-text-stroke: 1px blue;
+    -webkit-text-stroke: 1px #ff4400;
 }
 
 #feedback-sec .feedback-div input{
     border-radius: 5px;
     background-color: transparent;
     border: none;
-    box-shadow: 1px 1px 1px blue;
+    box-shadow: 1px 1px 1px #ff4400;
     outline: none;
     color: #9d2a00;
     outline: none;
@@ -691,7 +691,7 @@ main .home-text-div a:hover{
 #feedback-sec .feedback-div button{
     border-radius: 5px;
     background-color: transparent;
-    box-shadow: 0 0 5px blue; 
+    box-shadow: 0 0 5px #ff4400; 
     outline: none;
     border: none;
     width: 98%;
@@ -702,7 +702,7 @@ main .home-text-div a:hover{
 }
 #feedback-sec .feedback-div button:hover{
     box-shadow:
-    0 0 10px blue;
+    0 0 10px #ff4400;
 }
 
 
@@ -766,7 +766,7 @@ footer{
 
 
 footer p{
-    color: blue;
+    color: #ff4400;
     font-size: 15px;
 }
 
@@ -842,8 +842,8 @@ footer{
     left: 0;
     width: 0;
     height: 100%;
-    color: blue;
-    border-right: 2px solid blue;
+    color: #ff4400;
+    border-right: 2px solid #ff4400;
     overflow: hidden;
     animation: animate 1s  linear infinite;
 }
