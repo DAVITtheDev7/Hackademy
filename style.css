@@ -107,11 +107,6 @@ body {
 
 
 
-
-
-
-
-
 .menu li a{
     border-bottom: 2px solid transparent;
     position: relative;
@@ -179,6 +174,7 @@ body {
     #check:checked ~ .menu {right: 0;}
 
 }
+
 
 
 
@@ -834,13 +830,13 @@ footer{
     overflow: hidden;
 } */
 
-.container h2{
+/* .container h2{
     position: relative;
     font-size: 50px;
     color: #1a1a1a;
-}
+} */
 .container img{
-    width: 50px;
+    width: 80px;
     animation: spin 1s infinite;
 }
 @keyframes spin{
