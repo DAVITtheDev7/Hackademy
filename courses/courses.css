@@ -245,6 +245,8 @@ form input{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 0 50px;
+  overflow: hidden !important;
 }
 
 .course-div{
@@ -332,6 +334,38 @@ form input{
   transform: translateX(10px);
   color: red;
 }
+
+@media screen and (max-width:560px){
+  .course-div{
+    width: 400px;
+    height: 600px;
+    overflow-y: hidden;
+  }
+
+}
+@media screen and (max-width:440px){
+  .course-div{
+    height: 570px;
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width:425px){
+  .course-description{
+    height: 350px;
+  }
+  .course-div{
+    height: 610px;
+    overflow-y: hidden;
+  }
+  .course-div .course-div-title{
+    font-size: 20px ;
+  }
+}
+@media screen and (max-width:390px){
+  
+}
+
+
 
 
 /* footer */
