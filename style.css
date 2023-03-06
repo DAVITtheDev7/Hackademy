@@ -43,8 +43,10 @@ body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF ;
     --color2: #181818 ;
-    overflow-x: hidden;
+    cursor: url(img/cursor.png), auto;
 }
+
+
 .header {
     color: #fff;
     height: 100px;
@@ -175,8 +177,12 @@ body {
 
 }
 
-
-
+.change-language-img{
+    transition: 0.5s;
+}
+.change-language-img:hover{
+    transform: rotate(360deg);
+}
 
 
 
