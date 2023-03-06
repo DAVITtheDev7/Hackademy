@@ -245,7 +245,7 @@ form input{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 0 50px;
+  padding: 0 20px;
   overflow: hidden !important;
 }
 
@@ -345,13 +345,16 @@ form input{
 }
 @media screen and (max-width:440px){
   .course-div{
-    height: 570px;
+    height: 600px;
     overflow-y: hidden;
+  }
+  .course-description{
+    height: 300px;
   }
 }
 @media screen and (max-width:425px){
   .course-description{
-    height: 350px;
+    height: 320px;
   }
   .course-div{
     height: 610px;
@@ -362,7 +365,40 @@ form input{
   }
 }
 @media screen and (max-width:390px){
-
+  .course-description{
+    height: 310px;
+  }
+  .course-div{
+    height: 560px;
+    overflow-y: hidden;
+  }
+  .course-div .course-div-title{
+    font-size: 20px ;
+  }
+}
+@media screen and (max-width:326px){
+  .course-description{
+    height: 340px;
+  }
+  .course-div{
+    height: 570px;
+    overflow-y: hidden;
+  }
+  .course-div .course-div-title{
+    font-size: 20px ;
+  }
+}
+@media screen and (max-width:310px){
+  .course-description{
+    height: 350px;
+  }
+  .course-div{
+    height: 580px;
+    overflow-y: hidden;
+  }
+  .course-div .course-div-title{
+    font-size: 20px ;
+  }
 }
 
 
