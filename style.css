@@ -870,7 +870,7 @@ footer{
     color: #1a1a1a;
 } */
 .container img{
-    width: 80px;
+    width: 50px;
     animation: spin 1s infinite;
 }
 @keyframes spin{
