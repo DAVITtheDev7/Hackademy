@@ -25,8 +25,8 @@
               <span class="menu">
                   <li><a class="not-active" href="../index.html">მთავარი</a></li>
                   <li><a class="not-active" href="../index.html">ჩვენ შესახებ</a></li>
-                  <li><a class="active">კურსები</a></li>
                   <li><a class="not-active" href="../index.html">კონტაქტი</a></li>
+                  <li><a class="active">კურსები</a></li>
                   <a class="change-language" href="../courses/courseseng.html"><img class="change-language-img" src="../img/usa.png"></a>
                   <label for="check" class="close-menu"><img src="../img/close.png" ></label>
               </span>
@@ -35,78 +35,133 @@
       </nav>
      </header>
     <main>
+    
+
         <section id="course-sec">
+          <form>
+            <input type="text" id="search-input" placeholder="კურსის ძიება">
+          </form>
 
-          <div class="courses-parent" >
-
-            <!--  -->
-
-            <div class="course" >
-              <div class="course-img"><img src="../img/python.png" ></div>
-              <div class="course-main-txt" >
-                <div class="responsive-titile-price-course" >
-                  <h1 class="course-title"><span>PYTHON</span><br>დეველოპმენტი</h1><br>
-                  <p class="course-price">0000₾</p><br>
-                </div>
-                <div class="responsive-course" >
-                  <p class="course-duration">16 შეხვედრა (32 საათი)</p><br>
-                  <p class="course-teacher">დავით მამულაძე, არჩილ ქათამაძე,<br>ლაშა ქამადაძე, ლუკა ჯავახიშვილი, დათა ხარაზი</p><br>
-                </div>
-                <div style="overflow: hidden;" class="responsive-course" >
-                  <p style="margin-bottom: 30px;" class="course-description">კურსის მიზანია სტუდენტებმა ისწავლონ<br>პაითონის ენა, სინტაქსი და ინსტრუმენტები,<br>ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან<br>მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და<br>პროგრამის მდგრადობის გაზრდა.</p>
-                  <a class="course-see-more" href="../courses-detail/pythondetail.html" >დეტალურად<span >➜</span></a>
-                </div>
-              </div>
-            </div>
-
-            <!--  -->
-
-            <div class="course" >
-              <div class="course-img"><img src="../img/htmlcss.png" ></div>
-              <div class="course-main-txt" >
-                <div class="responsive-titile-price-course" >
-                  <h1 class="course-title"><span>HTML/CSS</span><br></h1><br>
-                  <p class="course-price">0000₾</p><br>
-                </div>
-                <div class="responsive-course" >
-                  <p class="course-duration">16 შეხვედრა (32 საათი)</p><br>
-                  <p class="course-teacher">დავით მამულაძე, არჩილ ქათამაძე,<br>ლაშა ქამადაძე, ლუკა ჯავახიშვილი,<br>დათა ხარაზი</p><br>
-                </div>
-                <div style="overflow: hidden;" class="responsive-course" >
-                  <p  class="course-description">კურსის მიზანია სტუდენტებმა ისწავლონ<br>HTML/CSS-ის საფუძვლები და ინსტრუმენტები,<br>მარტივი ვებსაიტების აწყობა.</p><br><br><br><br>
-                  <a class="course-see-more" href="../courses-detail/htmlcssdetail.html" >დეტალურად<span >➜</span></a>
-                </div>
-              </div>
-            </div>
-
-            <!--  -->
-
-            <div class="course" >
-              <div class="course-img"><img src="../img/java.png" ></div>
-              <div class="course-main-txt" >
-                <div class="responsive-titile-price-course" >
-                  <h1 class="course-title"><span>JAVA</span><br>დეველოპმენტი</h1><br>
-                  <p class="course-price">0000₾</p><br>
-                </div>
-                <div class="responsive-course" >
-                  <p class="course-duration">16 შეხვედრა (32 საათი)</p><br>
-                  <p class="course-teacher">დავით მამულაძე, არჩილ ქათამაძე,<br>ლაშა ქამადაძე, ლუკა ჯავახიშვილი, დათა ხარაზი</p><br>
-                </div>
-                <div style="overflow: hidden;" class="responsive-course" >
-                  <p class="course-description">კურსის მიზანია სტუდენტებმა ისწავლონ<br>ჯავა, სინტაქსი და ინსტრუმენტები,<br>ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან</p>
-                  <br><br>
-                  <a class="course-see-more" href="../courses-detail/javadetail.html" >დეტალურად<span >➜</span></a>
-                </div>
-              </div>
-            </div>
-
-            <!--  -->
-
+          
+          <div id="list" class="course-main-div" >
             
+            <div id="python" class="course-div">
+                <img class="course-banner-img" src="imgs/python.jpg" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >PYTHON DEVELOPMENT</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
+            </div>
 
-            <!--  -->
+            <div id="java" class="course-div">
+                <img class="course-banner-img" src="imgs/java.jpg" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >JAVA DEVELOPMENT</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
 
-          </div>
+            </div>
+
+            <div id="cpp" class="course-div">
+                <img class="course-banner-img" src="imgs/C++.png" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >C++ DEVELOPMENT</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
+            </div>
+
+            <div id="htmlcss" class="course-div">
+                <img class="course-banner-img" src="imgs/htmlcss.png" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >HTML AND CSS</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
+            </div>
+
+            <div id="javascript" class="course-div">
+                <img class="course-banner-img" src="imgs/javascript.png" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >JAVASCRIPT DEVELOPMENT</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
+            </div>
+
+            <div id="php" class="course-div">
+                <img class="course-banner-img" src="imgs/php.png" >
+                <div class="course-description">
+                    <h1 class="course-div-title" >PHP DEVELOPMENT</h1>
+                    <p class="course-div-p">კურსის მიზანია სტუდენტებმა ისწავლონ პაითონის ენა, სინტაქსი და ინსტრუმენტები, ცვლადები, ლოგიკურ ოპერაციებთან და ალგორითმებთან მუშაობა, შეცდომების, “ბაგების” დაჭერა კოდში და პროგრამის მდგრადობის გაზრდა</p>
+                    <div class="course-duration-div">
+                        <img class="course-clock-img" src="imgs/clock.png" >
+                        <div class="course-duration-child-div">
+                            <h1>ხანგრძლივობა</h1>
+                            <p>16 შეხვედრა (32 საათი)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-last-div">
+                    <h1 class="course-last-div-h1-first" >0000₾</h1>
+                    <a href="#" class="course-last-div-h1-second" >დეტალურად<span class="seemore-arrow" >➜</span></a>
+                </div>
+            </div>
+
+        </div>
+
 
           
 
@@ -121,43 +176,10 @@
       <div class="p-div"  ><p style="font-family: 'ArchyEDT-Bold';" >©2023 ჰაკადემი ყველა უფლება დაცულია</p></div>
   </footer>
 
+  <script src="app.js" ></script>
+
   
 
-  <script>
-      let mybutton = document.getElementById("myBtn");
-      
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 80) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-
-<script>
-  window.onload = function() {
-
-  var pageTitle = document.title;
-  var attentionMessage = 'WHERE TO?';
-
-  document.addEventListener('visibilitychange', function(e) {
-  var isPageActive = !document.hidden;
-
-  if(!isPageActive){
-      document.title = attentionMessage;
-  }else {
-      document.title = pageTitle;
-  }
-  });
-  };
- </script>
+ 
 </body>
 </html>

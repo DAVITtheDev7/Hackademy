@@ -37,6 +37,7 @@ body {
   height: 100px;
   padding: 20px;
   width: 100%;
+  z-index: 99999 !important;
 }
 
 .nav-bar {
@@ -48,6 +49,7 @@ body {
   position: fixed;
   padding: 12px 20px;
   background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 99999 !important;
 }
 .logo img {
   width: 35px;
@@ -149,7 +151,7 @@ body {
       position: fixed;
       top: 0;
       right: -100%;
-      z-index: 100;
+      z-index: 9999;
       transition: all 0.2s ease-in-out;
       backdrop-filter: blur(15px);
   }
@@ -195,12 +197,7 @@ body {
 
 
 
-#comingsoon{
-    background-image: url(../img/comingsoon.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 /* scrollbar */
 
@@ -213,95 +210,128 @@ body {
 }
 
 
+/* Search */
+form{
+  margin: 3em;
+}
+
+form input{
+  outline: none;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background: rgb(209,92,4);
+  background: linear-gradient(90deg, rgb(102, 46, 3) 0%,  rgba(0, 0, 0, 0) 100%);
+  border: none;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+
+
+
 
 
 /* COURSES... */
 
 #course-sec{
-    padding: 100px 0 20px 0px;
-    width: 100%;
-    height: 100%;
-    gap: 200px;
-}
-
-/* ------------------- */
-
-.course{
-  display: flex;
-  gap: 20px;
-  width: 650px;
-  border: 2px solid #d15c04;
-  border-radius: 20px;
-  padding: 15px;
-  transition: 0.5s;
-}
-.course:hover{
-  box-shadow: 1px 1px 10px #d15c04;   
-}
-
-.course h1,.course p{
-  color: #d15c04;
-}
-.course-title span{
-  color: transparent;
-  -webkit-text-stroke:1px #d15c04;
-  font-size: 30px;
-}
-
-.course-img{
-  overflow: hidden;
-}
-  
-.course-img img{
+  width: 100%;
   height: 100%;
-  width: 250px;
-
+  padding: 50px 0;
 }
 
-.courses-parent{
+.course-main-div{
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 10px;
-  gap: 20px;
+  justify-content: space-evenly;
 }
 
-.course-see-more{
-  font-size: 25px;
-  color: #d15c04;
-  transition: 0.3s;
+.course-div{
+  width: 450px;
+  height: 630px;
+  margin: 20px 0;
+  border: 2px solid rgb(255, 77, 0);
+  border-radius: 20px;
+  transition: 0.5s;
+  z-index: 1px !important;
 }
-.course-see-more:hover{
-  color:#d15c04;
-}
-.course-see-more span {
-  transition: transform 0.2s ease-in-out;
-  transition: 1s;
-}
-
-.course-see-more:hover span {
-  padding-left: 10px;
+.course-div:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgb(255, 77, 0);
 }
 
-@media screen and (max-width: 670px){
-  .course{
-    justify-content: space-between;
-  }
-  .course-description{
-    width: 80%;
-  }
-  .course-img img{
-    width: 100%;
-  }
-  
+
+.course-div .course-banner-img{
+  border-radius: 20px;
+  width: 100%;
 }
 
-@media screen and (max-width: 655px){
-  .course-img{
-    display: none;
-  }
+.course-description{
+  padding: 0 10px;
+  margin: 0 20px;
+  height: 300px;
+  border-bottom: 1px solid rgb(255, 77, 0);
+  position: relative;
 }
 
+.course-div .course-div-title{
+  color: rgb(255, 77, 0);
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.course-div .course-div-p{
+  margin-top: 20px;
+  color: rgb(218, 111, 65);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+}
+
+.course-duration-div{
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.course-duration-div img{
+  width: 40px;
+  height: auto;
+} 
+
+.course-duration-child-div h1{
+  color: rgb(218, 111, 65);
+  font-size: 20px;
+}
+.course-duration-child-div p{
+  color: rgb(218, 111, 65);
+  font-size: 15px;
+}
+
+.course-last-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.course-last-div h1{
+  color: rgb(218, 111, 65);
+}
+
+.course-last-div-h1-second{
+  font-size: 20px;
+  color: rgb(218, 111, 65);
+}
+
+.ourse-last-div-h1-second:hover .seemore-arrow{
+  transform: translateX(10px);
+  color: red;
+}
 
 
 /* footer */
