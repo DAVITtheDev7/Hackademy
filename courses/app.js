@@ -1,3 +1,4 @@
+
 const searchInput = document.querySelector('#search-input');
 const list = document.querySelector('#list');
 const nothingFound = document.createElement('div');
@@ -13,7 +14,9 @@ searchInput.addEventListener('input', (event) => {
     const textContent = item.textContent.toLowerCase();
     if (textContent.includes(searchTerm)) {
       item.style.display = 'block';
-      item.style.color = '#d15c04';
+      item.style.color = 'orange';
+      nothingFound.style.fontSize = '35px';
+      nothingFound.style.marginTop = '50px';
       numMatches++;
     } else {
       item.style.display = 'none';
@@ -22,7 +25,7 @@ searchInput.addEventListener('input', (event) => {
 
   if (numMatches === 0) {
     nothingFound.style.display = 'block';
-    document.querySelector('#course-sec').style.height = '95vh';
+    document.querySelector('#course-sec').style.height = '90vh';
   } else {
     nothingFound.style.display = 'none';
     document.querySelector('#course-sec').style.height = '';
