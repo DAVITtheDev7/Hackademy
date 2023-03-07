@@ -287,7 +287,7 @@ form input{
 }
 
 .course-div .course-div-p{
-  margin-top: 20px;
+  margin: 20px 0;
   color: rgb(218, 111, 65);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
