@@ -229,10 +229,6 @@ form input{
 }
 
 
-
-
-
-
 /* COURSES... */
 
 #course-sec{
@@ -248,6 +244,7 @@ form input{
   justify-content: space-evenly;
   padding: 0 20px;
   overflow: hidden !important;
+  height: 10000px;
 }
 
 .course-div{
