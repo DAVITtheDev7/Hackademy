@@ -212,9 +212,9 @@ body {
 
 /* Search */
 form{
-  margin: 3em;
   text-align: center;
   align-items: center;
+  margin: 2em;
 }
 
 form input{
@@ -233,13 +233,17 @@ form input{
 
 /* COURSES... */
 
+#course-sec{
+  text-align: center;
+}
 
 
 #search-input {
-  width: 100%;
+  width: 80%;
   max-width: 800px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-top: 5em;
+  margin-bottom: 25px;
   border: none;
   border-radius: 50px;
   border: 2px solid #d15c04;
@@ -247,7 +251,6 @@ form input{
   font-size: 1.2rem;
   font-weight: 300;
   color: white;
-  margin-top: 50px;
   text-align: center;
   transition: 0.5s;
 }
@@ -262,7 +265,6 @@ form input{
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  padding: 0 20px;
 }
 
 .course-div {
