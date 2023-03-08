@@ -221,8 +221,6 @@ form input{
   height: 60px;
   font-size: 20px;
   color: white;
-  background: rgb(209,92,4);
-  background: linear-gradient(90deg, rgb(102, 46, 3) 0%,  rgba(0, 0, 0, 0) 100%);
   border: none;
   padding: 0 20px;
   border-radius: 10px;
@@ -239,12 +237,13 @@ main form{
 
 #search-input {
   width: 100%;
-  max-width: 1290px;
+  max-width: 1390px;
   padding: 10px;
   margin-bottom: 20px;
   border: none;
   border-radius: 4px;
-  background-color: linear-gadient(to right black,red);
+  background: rgb(209,92,4);
+  background-image: linear-gradient(to right, #04d12a, #000000);
   font-size: 1.2rem;
   font-weight: 300;
   color: white;
@@ -257,14 +256,15 @@ main form{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 50px;
 }
 
 .course-div {
   width: 100%;
   max-width: 400px;
   margin-bottom: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #d15c04;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -283,7 +283,7 @@ main form{
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #222;
+  color: #a1a1a1;
 }
 
 .course-div-p {
@@ -317,7 +317,7 @@ main form{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #d15c04;
 }
 
 .course-last-div-h1-first {
@@ -330,12 +330,12 @@ main form{
 .course-last-div-h1-second {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #333;
-  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
 }
 
 .course-last-div-h1-second:hover {
-  color: #0077c2;
+  color: #ffffff;
 }
 
 .seemore-arrow {
