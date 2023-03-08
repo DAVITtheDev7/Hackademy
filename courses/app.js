@@ -1,4 +1,3 @@
-
 const searchInput = document.querySelector('#search-input');
 const list = document.querySelector('#list');
 const nothingFound = document.createElement('div');
@@ -25,7 +24,7 @@ searchInput.addEventListener('input', (event) => {
 
   if (numMatches === 0) {
     nothingFound.style.display = 'block';
-    document.querySelector('#course-sec').style.height = '90vh';
+    document.querySelector('#course-sec').style.height = '100%';
   } else {
     nothingFound.style.display = 'none';
     document.querySelector('#course-sec').style.height = '';

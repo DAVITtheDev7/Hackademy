@@ -233,9 +233,6 @@ form input{
 
 /* COURSES... */
 
-#course-sec{
-  text-align: center;
-}
 
 
 #search-input {
@@ -265,6 +262,7 @@ form input{
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
+  padding: 50px 0;
 }
 
 .course-div {
@@ -279,8 +277,7 @@ form input{
 }
 
 .course-div:hover{
-  transform: scale(1.05);
-  box-shadow: 0 0 10px #d15c04;
+  box-shadow: 0 0 50px #d15c04;
 }
 
 .course-banner-img {
@@ -384,6 +381,10 @@ footer{
   height: 40px;
   padding: 10px;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 
