@@ -178,7 +178,7 @@ body {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 30px;
     font-size: 18px;
     border: 1px solid #d15c04;
@@ -188,7 +188,7 @@ body {
     border-radius: 4px;
     transition: 0.5s;
     color: #d15c04;
-    background-color: transparent;
+    background-color: #000000;
   }
   
   #myBtn:hover{
@@ -378,8 +378,8 @@ form input{
 footer{
   background-color: #0c0c0c;
   width: 100%;
-  height: 40px;
-  padding: 10px;
+  height: 30px;
+  padding-top: 5px;
   text-align: center;
   position: fixed;
   left: 0;
