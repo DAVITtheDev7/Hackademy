@@ -425,6 +425,18 @@ form input{
     font-size: 20px ;
   }
 }
+@media screen and (max-width:280px){
+  .course-description{
+    height: 440px;
+  }
+  .course-div{
+    height: 650px;
+    overflow-y: hidden;
+  }
+  .course-div .course-div-title{
+    font-size: 20px ;
+  }
+}
 
 
 
