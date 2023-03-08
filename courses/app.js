@@ -31,3 +31,5 @@ searchInput.addEventListener('input', (event) => {
     document.querySelector('#course-sec').style.height = '';
   }
 });
+
+

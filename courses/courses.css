@@ -213,6 +213,8 @@ body {
 /* Search */
 form{
   margin: 3em;
+  text-align: center;
+  align-items: center;
 }
 
 form input{
@@ -230,24 +232,21 @@ form input{
 /* COURSES... */
 
 
-main form{
-  text-align: center;
-}
-
 
 #search-input {
-  width: 100%;
-  max-width: 1390px;
+  width: 50%;
+  max-width: 800px;
   padding: 10px;
   margin-bottom: 20px;
   border: none;
-  border-radius: 4px;
-  background: rgb(209,92,4);
-  background-image: linear-gradient(to right, #04d148, #000000);
+  border-radius: 50px;
+  border: 2px solid #d15c04;
+  background-color: transparent;
   font-size: 1.2rem;
   font-weight: 300;
   color: white;
   margin-top: 50px;
+  text-align: center;
 }
 
 
@@ -257,7 +256,7 @@ main form{
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .course-div {
@@ -353,6 +352,9 @@ main form{
 @media screen and (min-width: 768px) {
   .course-div {
     margin-right: 30px;
+  }
+  .course-div-title{
+    font-size: 1.5rem;
   }
 }
 
