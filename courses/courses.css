@@ -427,10 +427,10 @@ form input{
 }
 @media screen and (max-width:280px){
   .course-description{
-    height: 440px;
+    height: 540px;
   }
   .course-div{
-    height: 650px;
+    height: 1050px;
     overflow-y: hidden;
   }
   .course-div .course-div-title{
