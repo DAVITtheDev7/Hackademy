@@ -229,12 +229,14 @@ form input{
 }
 
 
+
+
 /* COURSES... */
 
 
 
 #search-input {
-  width: 50%;
+  width: 100%;
   max-width: 800px;
   padding: 10px;
   margin-bottom: 20px;
@@ -247,8 +249,12 @@ form input{
   color: white;
   margin-top: 50px;
   text-align: center;
+  transition: 0.5s;
 }
 
+#search-input:focus {
+  box-shadow: 0 0 30px #d15c04;
+}
 
 
 .course-main-div {
@@ -262,11 +268,17 @@ form input{
 .course-div {
   width: 100%;
   max-width: 400px;
-  margin-bottom: 30px;
+  margin: 30px;
   border: 1px solid #d15c04;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.course-div:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #d15c04;
 }
 
 .course-banner-img {
