@@ -1,245 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 @import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
-@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
-
-
-@font-face {
-    font-family: 'techno hideo';
-    src: url(fonts/techno_hideo/techno_hideo.ttf);
-}
-@font-face {
-    font-family: 'square';
-    src: url(fonts/aldo_the_apache/AldotheApache.ttf);
-}
-
-@font-face{
-    font-family: 'georgian';
-    src: url(fonts/georgian/69_tall.ttf);
-}
-
-@font-face {
-    font-family: 'hello world';
-    src: url(fonts/hello_world/hello-world.ttf);
-}
-
-html{
-    height: 100%
-  }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     list-style-type: none;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
-    color: #d15c04;
-    transition: 0.5s;
+}
+@font-face {
+    font-family: 'square';
+    src: url(../fonts/aldo_the_apache/AldotheApache.ttf);
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'ArchyEDT-Bold';
 }
 body {
-    font-family: "Poppins", sans-serif;
-    --color1: #FFF ;
-    --color2: #181818 ;
-    overflow-x: hidden;
-    background-color: black;
+  font-family: "Poppins", sans-serif;
+  --color1: #FFF ;
+  --color2: #181818 ;
+  background-color: black;
 }
 .header {
-    color: #fff;
-    height: 100px;
-    padding: 20px;
-    width: 100%;
-  }
-  
+  color: #fff;
+  height: 100px;
+  padding: 20px;
+  width: 100%;
+  z-index: 99999 !important;
+}
+
 .nav-bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: fixed;
-    padding: 12px 20px;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: fixed;
+  padding: 12px 20px;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 99999 !important;
 }
 .logo img {
-    width: 35px;
-    margin-right: 5px;
-  }
-  .logo a{
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: #d15c04;
-  }
-  .logo a span{
-    color: transparent;
-    -webkit-text-stroke: 1px #d15c04;
-  
-  }
+  width: 35px;
+  margin-right: 5px;
+}
+.logo a{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #d15c04;
+}
+.logo a span{
+  color: transparent;
+  -webkit-text-stroke: 1px #d15c04;
+
+}
 .menu {
-    display: flex;
+  display: flex;
 }
 
 .menu li a {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--color1);
-    text-align: center;
-    transition: 0.15s ease-in-out;
-    position: relative;
-    text-transform: uppercase;
-    font-family: 'ArchyEDT-Bold';
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color1);
+  text-align: center;
+  transition: 0.15s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'ArchyEDT-Bold';
 }
 .menu li a{
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    color: #d15c04;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  color: #d15c04;
 }
 
 
+.active{
+  border: 1px solid #d15c04;
+  border-radius: 10px;
+}
 
 
-.menu li a{
-    border-bottom: 2px solid transparent;
-    position: relative;
-  }
-  
-.menu li a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #d15c04;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
-  }
-  
-.menu li a:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
-  }
+.menu li .not-active{
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+
+.menu li .not-active:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d15c04;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.menu li .not-active:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 
 .open-menu , .close-menu {
-    position: absolute;
-    color: var(--color1);
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: none;
+  position: absolute;
+  color: var(--color1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
 }
 .open-menu {
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
 }
 .close-menu {
-    top: 20px;
-    right: 20px;
+  top: 20px;
+  right: 20px;
 }
 #check {
-    display: none;
+  display: none;
 }
 
-img.change-language-img:hover{
-    transform: rotate(360deg);
-}
 
 
 @media(max-width: 1150px){
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        transition: all 0.2s ease-in-out;
-        backdrop-filter: blur(15px);
-    }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
+  .menu {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 9999;
+      transition: all 0.2s ease-in-out;
+      backdrop-filter: blur(15px);
+  }
+  .menu li {margin-top: 40px;}
+  .menu li a {padding: 10px;}
+  .open-menu , .close-menu {display: block;}
+  #check:checked ~ .menu {right: 0;}
 
 }
 
 
 
-/* ------------------------------ */
 
 
-.first-sec{
-    display: flex;
-    justify-content: space-around;
-}
-h1.title-h1{
+#title{
+    color: rgb(100, 100, 100);
     font-size: 50px;
-}
-
-p.description-p{
-    font-size: 30px;
-    width: 650px;
-}
-
-p.price-p{
-    font-size: 50px;
+    margin-top: 1.7em;
     text-align: center;
-    margin-bottom: 50px;
-}
-
-.for-a{
-    text-align: center;
-    margin-top: 20px;
-}
-.for-a a{
-    font-size: 40px;
-    border: 2px solid #d15c04;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-.for-a a:hover{
-    box-shadow: 1px 1px 10px white;
-}
-a.silabus-a{
-    padding:20px 50px !important;
-    margin-bottom: 50px !important;
-}
-.main-image-div img{
-    width: 450px;
-    height: 550px;
+    padding-bottom: 20px;
 }
 
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    font-size: 18px;
+    border: 1px solid #d15c04;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #d15c04;
+    background-color: #000000;
+  }
+  
+  #myBtn:hover{
+    box-shadow: 0 0 10px #d15c04;
+  }
 
-@media screen and (max-width: 1200px){
-    .main-image-div img{
-        display: none;
-    }
-    .first-sec{
-        justify-content: center;
-        text-align: center;
-        padding: 0 20px;
-        height: 100vh;
-    }
-    p.description-p{
-        font-size: 30px;
-        width: auto;
-    }
+
+
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    background-color: #1b1b1b;
+    width: 5px;
 }
-
-
+::-webkit-scrollbar-thumb {
+    background-color: #383838;
+}

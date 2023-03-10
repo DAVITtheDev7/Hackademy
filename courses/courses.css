@@ -239,8 +239,8 @@ form input{
   width: 80%;
   max-width: 800px;
   padding: 10px;
-  margin-top: 5em;
-  margin-bottom: 25px;
+  margin-top: 3em;
+  margin-bottom: 1em;
   border: none;
   border-radius: 50px;
   border: 2px solid #d15c04;
@@ -262,22 +262,24 @@ form input{
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  padding: 50px 0;
+  padding-bottom: 80px;
+  padding-top: 20px;
 }
 
 .course-div {
   width: 100%;
   max-width: 400px;
-  margin: 30px;
   border: 1px solid #d15c04;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  margin: 0 10px;
 }
 
+
 .course-div:hover{
-  box-shadow: 0 0 50px #d15c04;
+  box-shadow: 0 0 30px #d15c04;
 }
 
 .course-banner-img {
@@ -298,7 +300,7 @@ form input{
 }
 
 .course-div-p {
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 15px;
   line-height: 1.5;
@@ -308,13 +310,26 @@ form input{
 .course-duration-div {
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 13px;
   font-weight: 300;
   color: #777;
 }
 
+@media screen and (max-width: 400px){
+  .course-div-p{
+    font-size: 17px;
+  }
+  .course-div-title {
+    font-size: 23px;
+  }
+  .course-last-div-h1-first{
+    font-size: 20px !important;
+  }
+  
+}
+
 .course-clock-img {
-  width: 20px;
+  width: 30px;
   margin-right: 10px;
 }
 
@@ -353,11 +368,6 @@ form input{
   font-size: 1.2rem;
   margin-left: 5px;
 }
-
-.seemore-arrow:hover {
-  color: #0077c2;
-}
-
 
 
 @media screen and (min-width: 768px) {
