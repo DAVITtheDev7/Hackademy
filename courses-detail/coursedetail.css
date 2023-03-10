@@ -6,7 +6,6 @@
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    list-style-type: none;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
 }
@@ -207,4 +206,147 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background-color: #383838;
+}
+
+
+/* main */
+
+main{
+  padding: 90px 50px;
+}
+.courses-detail-main-child-div-title-h1{
+  color: #d15c04;
+  font-size: 65px;
+}
+.courses-detail-main-child-div-title-h1 span{
+  color: transparent;
+  -webkit-text-stroke: 2px #d15c04;
+}
+
+.courses-detail-main-div-img{
+  width: 50%;
+  border: 1px solid #d15c04;
+  border-radius: 10px;
+}
+
+
+.courses-detail-main-div{
+  margin-top: 4.5em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.courses-detail-main-div-child2-div{
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+  border: 2px solid #d15c04;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.courses-detail-main-div-second-bottom-div2{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.courses-detail-main-div-second-bottom-div2 a{
+  background-color: transparent;
+  border: 2px solid #d15c04;
+  height: 80px;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-detail-main-div-second-bottom-div2 div h1{
+  color: #d15c04;
+}
+
+
+
+.first-div{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d15c04;
+  padding-bottom: 30px;
+}
+
+.first-div h1{
+  font-size: 23px;
+}
+.first-div p{
+  font-size: 20px;
+}
+
+.first-div h1,p{
+  color: #d15c04;
+}
+
+
+.second-div p{
+  font-size: 20px;
+}
+.courses-detail-main-div-second-bottom-div2 a h1{
+  transition: 0.5s;
+}
+.courses-detail-main-div-second-bottom-div2 a h1:hover{
+  color: rgb(136, 136, 136);
+}
+
+/* ----------- */
+
+
+.course-detail-h1{
+  margin-top: 3.7em !important;
+}
+#detail-h1{
+  color: #d15c04;
+  font-size:  4em;
+  margin-top: 1.4em;
+}
+.course-detail-p{
+  color: #d15c04;
+  font-size: 2em;
+}
+
+
+
+/* footer */
+
+footer{
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+footer p{
+  color: #d15c04;
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 600px){
+  footer p{
+      color: grey;
+      font-size: 10px;
+  }
+}
+
+footer{
+  overflow-y: hidden;
 }
