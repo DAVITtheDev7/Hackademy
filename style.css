@@ -95,8 +95,11 @@ body {
     outline: 1px solid #d15c04;
     padding: 5px 10px;
     border-radius: 10px;
+    transition: 0.3s;
 }
-
+.not-active-li:hover{
+    background-color: rgb(42, 42, 42);
+}
   
 
   .active-li {
@@ -219,7 +222,7 @@ main .home-text-div h1{
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
+      transform: translateY(10px);
     }
     100% {
       transform: translateY(0);
