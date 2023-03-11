@@ -629,7 +629,7 @@ main .home-text-div a:hover{
   
   #message {
     font-size: 16px;
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
     color: #3a3a3a;
   }
