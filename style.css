@@ -38,6 +38,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
+    resize: none;
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -521,7 +522,7 @@ main .home-text-div a:hover{
 
 /* Feedback */
 
-#feedback-sec{
+/* #feedback-sec{
     width: 100%;
     height: auto;
     background-color: #000000;
@@ -622,7 +623,116 @@ form input:focus, textarea:focus{
     .feedback-div{
         margin-left: 920px;
     }
+} */
+
+.feedback-sec {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+  }
+  
+  .feedback-text-div h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+  }
+  
+  .feedback-text-div p {
+    font-size: 40px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .contact-logos-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact-logos-div a {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .contact-logos-div a:hover {
+    transform: scale(1.2);
+  }
+  
+  .contact-logos-div a img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .feedback-div {
+    background-color: #232323;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-div h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #bcbcbc;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .feedback-div form {
+    text-align: center;
+  }
+  
+  .feedback-div input[type="text"],
+  .feedback-div input[type="email"],
+  .feedback-div textarea {
+    border: 3px solid #000000;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .feedback-div input[type="text"]:nth-of-type(1) {
+    margin-right: 20px;
+  }
+  
+  .feedback-div textarea {
+    height: 150px;
+  }
+  
+  .feedback-div button {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .feedback-div button:hover {
+    background-color: #0047b3;
+  }
+  
+  #message {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    color: #3a3a3a;
+  }
+
+input, textarea{
+    background-color: transparent;
 }
+  
 
 
 
