@@ -629,7 +629,7 @@ form input:focus, textarea:focus{
     display: flex;
     justify-content: space-around;
     background-color: #000000;
-    padding: 50px 50px;
+    padding: 50px 20px;
     flex-wrap: wrap;
   }
   
