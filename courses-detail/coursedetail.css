@@ -390,6 +390,10 @@ td, th {
     }
 }
 
+#table-span {
+  display: none;
+}
+
 
 
 
