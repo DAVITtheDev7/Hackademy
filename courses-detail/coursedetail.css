@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     font-family: 'ArchyEDT-Bold';
+    text-transform: uppercase;
 }
 @font-face {
     font-family: 'square';
@@ -213,6 +214,11 @@ body {
 main{
   padding: 90px 50px;
 }
+@media screen and (min-width:1305px){
+  .courses-detail-main-child-div{
+    width: 50%;
+  }
+}
 .courses-detail-main-child-div-title-h1{
   color: #d15c04;
   font-size: 65px;
@@ -360,6 +366,24 @@ main{
     font-size: 35px;
   }
 }
+
+/* table */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+td, th {
+  border: 1px solid #d15c04;
+  padding: 8px;
+  color: #d15c04;
+  height: 150px;
+}
+
 
 
 
