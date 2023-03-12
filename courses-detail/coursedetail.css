@@ -231,7 +231,7 @@ main{
 .courses-detail-main-div-img{
   width: 45%;
   border: 1px solid #d15c04;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 
@@ -248,7 +248,7 @@ main{
   background-color: transparent;
   border: 2px solid #d15c04;
   margin: 20px 0;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
@@ -265,7 +265,7 @@ main{
   border: 2px solid #d15c04;
   height: 80px;
   width: 50%;
-  border-radius: 10px;
+  border-radius: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,6 +392,14 @@ td, th {
 
 #table-span {
   display: none;
+}
+
+.table-h1{
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px  #d15c04;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 
