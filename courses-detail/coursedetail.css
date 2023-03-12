@@ -384,6 +384,11 @@ td, th {
   height: 150px;
 }
 
+@media screen and (max-width:800px){
+    table{
+      font-size: 15px;
+    }
+}
 
 
 
