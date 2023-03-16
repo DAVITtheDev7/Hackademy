@@ -527,7 +527,7 @@ main .home-text-div a:hover{
 
 
 
-.feedback-sec {
+#feedback-sec {
     display: flex;
     justify-content: space-around;
     background-color: #000000;
@@ -571,14 +571,14 @@ main .home-text-div a:hover{
     height: 40px;
   }
   
-  .feedback-div {
+  #feedback-div {
     background-color: #1f1f1f;
     padding: 40px;
     border-radius: 30px;
     box-shadow: inset 0 0 10px #000000;
   }
   
-  .feedback-div h1 {
+  #feedback-div h1 {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -588,13 +588,13 @@ main .home-text-div a:hover{
     text-align: center;
   }
   
-  .feedback-div form {
+  #feedback-div form {
     text-align: center;
   }
   
-  .feedback-div input[type="text"],
-  .feedback-div input[type="email"],
-  .feedback-div textarea {
+  #feedback-div input[type="text"],
+  #feedback-div input[type="email"],
+  #feedback-div textarea {
     border: 1px solid #000000;
     border-radius: 10px;
     width: 100%;
@@ -604,15 +604,15 @@ main .home-text-div a:hover{
     color: rgb(150, 150, 150);
   }
   
-  .feedback-div input[type="text"]:nth-of-type(1) {
+  #feedback-div input[type="text"]:nth-of-type(1) {
     margin-right: 20px;
   }
   
-  .feedback-div textarea {
+  #feedback-div textarea {
     height: 150px;
   }
   
-  .feedback-div button {
+  #feedback-div button {
     background-color: #161616;
     color: #828282;
     border: none;
@@ -625,7 +625,7 @@ main .home-text-div a:hover{
     height: 70px;
   }
   
-  .feedback-div button:hover{
+  #feedback-div button:hover{
     background-color: #000000;
   }
   
@@ -702,12 +702,17 @@ footer{
 
 
 /* Animations */
-
-
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
   
-
-
-
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 
 
