@@ -454,7 +454,7 @@ main .home-text-div a:hover{
         font-size: 20px;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 450px){
     #contact-logos-div a{
         font-size: 15px;
     }
