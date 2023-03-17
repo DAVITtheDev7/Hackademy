@@ -219,7 +219,7 @@ form{
 
 form input{
   outline: none;
-  width: 100%;
+  width: 10px;
   height: 60px;
   font-size: 20px;
   color: white;
@@ -236,7 +236,7 @@ form input{
 
 
 #search-input {
-  width: 80%;
+  width: 30%;
   max-width: 800px;
   padding: 10px;
   margin-top: 3em;
@@ -249,11 +249,12 @@ form input{
   font-weight: 300;
   color: white;
   text-align: center;
-  transition: 0.5s;
+  transition: 0.9s;
 }
 
 #search-input:focus {
   box-shadow: 0 0 30px #d15c04;
+  width: 90%;
 }
 
 

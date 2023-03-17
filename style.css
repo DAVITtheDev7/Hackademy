@@ -563,7 +563,7 @@ main .home-text-div a:hover{
     margin-bottom: 50px;
   }
   
-  .feedback-text-div h1 {
+  #feedback-text-div h1 {
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -572,7 +572,7 @@ main .home-text-div a:hover{
     text-transform: uppercase;
   }
   
-  .feedback-text-div p {
+  #feedback-text-div p {
     font-size: 40px;
     color: #d15c04;
   }
@@ -582,7 +582,7 @@ main .home-text-div a:hover{
     margin-bottom: 50px;
     flex-direction: column;
     align-items: flex-start;
-    padding: 40px 0;
+    padding: 10px 0;
   }
   .contact-logos-div div{
     background-color: 2px solid red;
@@ -668,21 +668,21 @@ input, textarea{
   
 
 @media screen and (max-width: 1223px){
-    .feedback-text-div{
+    #feedback-text-div{
         text-align: center;
     }
 }
 
 @media screen and (max-width: 680px){
-    .feedback-text-div p{
+    #feedback-text-div p{
         font-size: 30px;
     }
 }
 @media screen and (max-width: 470px){
-    .feedback-text-div p{
+    #feedback-text-div p{
         font-size: 20px;
     }
-    .feedback-text-div h1{
+    #feedback-text-div h1{
         font-size: 50px;
     }
 }
@@ -808,6 +808,8 @@ footer{
 }
 
 
+  
+
 
 /* back */
 body{
@@ -852,26 +854,3 @@ body{
 
 
 /* ----------- */
-
-#message {
-    display: none;
-    position: fixed;
-    padding: 300px 0;
-    font-size: 50px;
-    color: #d15c04;
-    backdrop-filter: blur(10px);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
-    
-}
-  
-@media screen and (max-width: 800px){
-    #message{
-        font-size: 25px;
-    }
-}
-
-

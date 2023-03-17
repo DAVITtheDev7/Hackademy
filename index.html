@@ -22,8 +22,8 @@
     </div> -->
       
 
-
-   <header>
+    
+    <header>
     <nav>
         <ul class='nav-bar'>
             <li class='logo'><a href='index.html'><img src='../img/logo.png'/>HACK<span>ADEMY</span></a></li>
@@ -43,6 +43,7 @@
 
 
    <main>
+    
         <section id="home-sec" class="home-sec">
 
                 <video autoplay loop muted plays-inline class="background-clip" >
@@ -69,28 +70,27 @@
         
         <section id="feedback-sec">
             
-            <div class="feedback-text-div">
-                <h1  class="reveal" style="font-family: 'ArchyEDT-Bold';" >ჰაკადემი</h1>
+            <div class="reveal" id="feedback-text-div">
+                <h1 class="reveal" style="font-family: 'ArchyEDT-Bold';" >ჰაკადემი</h1>
                 <p class="reveal" >გაგვიზიარეთ თქვენი აზრი, როგორ</p>
                 <p class="reveal" >შეგვიძლია გავაუმჯობესოთ ჩვენი საიტი.</p>
-                <div id="contact-logos-div" >
-                    <a href="https://www.facebook.com/profile.php?id=100090010031095" class="reveal" target="_blank" ><div><img src="img/facebook.png">www.facebook.com/hackademy</div></a>
-                    <!-- <a class="reveal"><div><img src="img/instagram.png">ar gvaqvs</div></a> -->
-                    <a href="mailto:hackademy.notify@gmail.com" class="reveal"><div><img src="img/gmail.png" >hackademy.notify@gmail.com</div></a>
-                    <a href="https://discord.gg/hgN3YMRg" class="reveal" target="_blank"><div><img src="img/discord.png" >www.discord.com/hackademy</div></a>
+                <div class="reveal" id="contact-logos-div" >
+                    <a href="https://www.facebook.com/profile.php?id=100090010031095"  target="_blank" ><div><img src="img/facebook.png">www.facebook.com/hackademy</div></a>
+                    <!-- <a ><div><img src="img/instagram.png">ar gvaqvs</div></a> -->
+                    <a href="mailto:hackademy.notify@gmail.com" ><div><img src="img/gmail.png" >hackademy.notify@gmail.com</div></a>
+                    <a href="https://discord.gg/hgN3YMRg"  target="_blank"><div><img src="img/discord.png" >www.discord.com/hackademy</div></a>
                 </div>
             </div>
             
             <div  id="feedback-div">
                 <h1 class="reveal" style="font-family: 'ArchyEDT-Bold';" >უკუკავშირი</h1>
                 
-                <form   >    
-                        <input class="reveal" type="text" id="name" placeholder="სახელი">
-                        <input class="reveal" type="text" id="surname" placeholder="გვარი"><br>
-                        <input class="reveal" type="email" id="email-input" placeholder="ემაილი"><br>
-                        <textarea class="reveal" id="feedback-txtarea" placeholder="გამოგვიგზავნეთ თქვენი შენიშვნები"></textarea>
-                        <button  id="feedback-btn" >დადასტურება</button>
-                        <div  id="message"></div>
+                <form>    
+                        <input class="reveal" type="text" id="name" placeholder="სახელი"  required>
+                        <input class="reveal" type="text" id="surname" placeholder="გვარი" required><br>
+                        <input class="reveal" type="email" id="email-input" placeholder="ემაილი" required><br>
+                        <textarea class="reveal" id="feedback-txtarea" placeholder="გამოგვიგზავნეთ თქვენი შენიშვნები" required></textarea>
+                        <button onclick="myFunction()"  id="feedback-btn" >დადასტურება</button>
                 </form>
                 
             </div>

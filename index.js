@@ -89,22 +89,6 @@ window.addEventListener("scroll", reveal);
 
 
 
-
-
-
-// Feedback
-
-document.getElementById("feedback-btn").addEventListener("click", function(event) {
-  event.preventDefault();
-  var message = document.getElementById("message");
-  var name = document.getElementById("name").value
-  message.style.display = "block";
-  message.innerHTML = "მადლობა "+name+" გამოხმაურებისთვის!";
-  setTimeout(function(){ message.style.display = "none"; }, 2000);
-});
-
-
-
 // change tab
 
 window.onload = function() {
