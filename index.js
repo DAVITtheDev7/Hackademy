@@ -111,3 +111,9 @@ window.onload = function() {
 
 
 
+
+// burger menu
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}

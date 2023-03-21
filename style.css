@@ -138,6 +138,7 @@ body {
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
+    z-index: 999;
 }
 .open-menu {
     top: 50%;
@@ -189,6 +190,30 @@ body {
     transform: rotate(360deg);
 }
 
+/* burger menu */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 999999;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #d15c04;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
 
 
 /* Main */
