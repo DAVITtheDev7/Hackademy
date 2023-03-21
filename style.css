@@ -67,6 +67,9 @@ body {
     background: linear-gradient(black, rgba(0, 0, 0, 0.7), transparent);
     z-index: 999;
 }
+.logo{
+    z-index: 9999;
+}
 .logo img {
     width: 35px;
     margin-right: 5px;
@@ -203,6 +206,7 @@ body {
     background-color: #d15c04;
     margin: 6px 0;
     transition: 0.4s;
+    border-radius: 2px;
   }
   
   .change .bar1 {
