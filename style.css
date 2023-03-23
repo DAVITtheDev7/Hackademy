@@ -325,6 +325,17 @@ main .home-text-div a:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width: 450px){
+    .pause-btn-div button{
+        width: 140px;
+        font-size: 18px;
+    }
+    .pause-btn-div{
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+}
+
 
 
 /* About section */
