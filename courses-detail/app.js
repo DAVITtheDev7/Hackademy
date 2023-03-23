@@ -12,3 +12,8 @@ var coll = document.getElementsByClassName("collapsible");
             } 
           });
         }
+
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}

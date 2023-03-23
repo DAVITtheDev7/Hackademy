@@ -117,3 +117,32 @@ window.onload = function() {
 function myFunction(x) {
   x.classList.toggle("change");
 }
+
+$(document).ready(function() {
+  $('.menu').hide();
+
+  $('.open-menu').click(function() {
+    $('.menu').toggle();
+  });
+
+  $('.menu li').click(function() {
+    $('.menu').hide();
+  });
+});
+
+
+
+// pause video
+
+document.getElementById("pauseBtn").addEventListener("click", pauseVid);
+
+function pauseVid() {
+  var vid = document.getElementById("myVideo");
+  if (vid.paused) {
+    vid.play();
+    document.getElementById("pauseBtn").innerHTML = "Pause Video";
+  } else {
+    vid.pause();
+    document.getElementById("pauseBtn").innerHTML = "Play Video";
+  }
+}

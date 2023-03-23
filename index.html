@@ -45,8 +45,6 @@
             </label>
         </ul>
     </nav>
-
-    <!-- <button class="pause-btn">PAUSE</button> -->
    </header>
 
 
@@ -54,7 +52,7 @@
     
         <section id="home-sec" class="home-sec">
 
-                <video autoplay loop muted plays-inline class="background-clip" >
+                <video id="myVideo" autoplay loop muted plays-inline class="background-clip" >
                     <source src="img/tech.mp4" type="video/mp4">
                 </video>
                 <div class="home-text-div" >
@@ -62,7 +60,11 @@
                     <div class="join-us-div" ><a style="font-family: 'BPG Banner QuadroSquare Caps', sans-serif;" href="courses/coursesgeo.html">შემოგვიერთდი</a></div>
                 </div>
                 
+            
         </section>
+        <div  class="pause-btn-div" >
+            <button id="pauseBtn" class="pause-btn" onclick="pauseVid()">Pause Video</button>
+        </div>
         
         <section  id="banner-sec" class="banner-sec"></section>
 

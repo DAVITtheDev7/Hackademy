@@ -32,3 +32,6 @@ searchInput.addEventListener('input', (event) => {
 });
 
 
+function myFunction(x) {
+  x.classList.toggle("change");
+}
