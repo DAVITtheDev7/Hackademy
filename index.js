@@ -60,7 +60,8 @@ window.addEventListener('load', function() {
   const loader = document.getElementById('loader');
   setTimeout(function() {
     loader.style.display = 'none';
-  }, 2000)
+    loader.style.overflow = 'hidden';
+  }, 2500)
 });
 
 
@@ -146,3 +147,5 @@ function pauseVid() {
     document.getElementById("pauseBtn").innerHTML = "Play Video";
   }
 }
+
+
