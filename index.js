@@ -90,25 +90,6 @@ window.addEventListener("scroll", reveal);
 
 
 
-// change tab
-
-window.onload = function() {
-
-  var pageTitle = document.title;
-  var attentionMessage = 'WHERE TO?';
-
-  document.addEventListener('visibilitychange', function(e) {
-  var isPageActive = !document.hidden;
-
-  if(!isPageActive){
-      document.title = attentionMessage;
-  }else {
-      document.title = pageTitle;
-  }
-  });
-};
-
-
 
 
 
