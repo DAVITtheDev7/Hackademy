@@ -61,7 +61,7 @@ window.addEventListener('load', function() {
   setTimeout(function() {
     loader.style.display = 'none';
     loader.style.overflow = 'hidden';
-  }, 2500)
+  }, 3000)
 });
 
 
