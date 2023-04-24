@@ -498,13 +498,12 @@ main .home-text-div a:hover{
     color: transparent;
     -webkit-text-stroke: 0.99px #d15c04;
     font-size: 35px;
-    border: 2px solid #d15c04;
+    border-bottom: 2px solid #d15c04;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
     margin: 5px 0;
-    border-radius: 5px;
 }
 #contact-logos-div a div{
     display: flex;
@@ -808,10 +807,13 @@ footer{
 
 /* Loading */
 
-
-#loading-video{
-    width: 120px;
+.container-loading{
+    text-align: center;
+    line-height: 10px;
 }
+
+
+
 
 #loader {
     position: fixed;
@@ -826,33 +828,66 @@ footer{
     align-items: center;
     overflow-y: hidden;
   }
-  
 
-
-.container h2:before{
-    content: attr(data-text);
+  .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: #d15c04;
-    border-right: 2px solid #d15c04;
-    overflow: hidden;
-    animation: animate 1s  linear infinite;
-}
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #d15c04;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    cursor: default;
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
 
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width: 0;
-    }
-    70%,90%
-    {
-        width: 100%;
-    }
-}
+
+
 
 
 /* scrollbar */

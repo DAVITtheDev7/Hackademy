@@ -110,6 +110,10 @@ $(document).ready(function() {
   $('.menu li').click(function() {
     $('.menu').hide();
   });
+
+
+
+  
 });
 
 
